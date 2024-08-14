@@ -1,0 +1,87 @@
+{
+  "lights": [
+    {
+      "name": "light_1",
+      "type": "point",
+      "color": "0xFFFFFF",
+      "intencity": 20,
+      "position": {
+        "x": 10,
+        "y": 3,
+        "z": 0
+      }
+    },
+    {
+      "name": "light_2",
+      "type": "point",
+      "color": "0xFFFFFF",
+      "intencity": 20,
+      "position": {
+        "x": -10,
+        "y": 3,
+        "z": 0
+      }
+    },
+    {
+      "name": "light_3",
+      "type": "point",
+      "color": "0xFFFFFF",
+      "intencity": 70,
+      "position": {
+        "x": 0,
+        "y": 3,
+        "z": 5
+      }
+    },
+    {
+      "name": "light_4",
+      "type": "point",
+      "color": "0xFFFFFF",
+      "intencity": 70,
+      "position": {
+        "x": 0,
+        "y": 3,
+        "z": -5
+      }
+    }
+  ],
+  "textures": [
+    {
+      "name": "tiles",
+      "url": "./assets/textures/tiles/tiles.jpg"
+    },
+    {
+      "name": "tiles_normal",
+      "url": "./assets/textures/tiles/tiles_normal_map.jpg"
+    }
+  ],
+  "models": [],
+  "materials": [
+    {
+      "name": "ground",
+      "type": "phong",
+      "map": "tiles",
+      "color": "#dddd88",
+      "roughness": 0.65,
+      "metalness": 0.3
+    }
+  ],
+  "objects": [],
+  "meshes": [
+    {
+      "name": "groundPlane",
+      "type": "box",
+      "material": "ground",
+      "size": {
+        "x": 1,
+        "y": 0.03,
+        "z": 1
+      },
+      "position": {
+        "x": 0,
+        "y": -0.015,
+        "z": 0
+      }
+    }
+  ]
+}

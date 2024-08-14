@@ -1,0 +1,85 @@
+[
+  {
+    "type": "empty",
+    "name": "Empty",
+    "size": {
+      "min": 0,
+      "max": 999999999
+    },
+    "beam_after": false,
+    "frame": []
+  },
+  {
+    "type": "wood_fill",
+    "name": "Wood",
+    "size": {
+      "min": 0,
+      "max": 999999999
+    },
+    "frame": {},
+    "beam_after": true
+  },
+  {
+    "type": "beam",
+    "name": "Beam",
+    "size": {
+      "min": 150,
+      "max": 150
+    },
+    "beam_after": false
+  },
+  {
+    "type": "zhaluzi",
+    "name": "",
+    "size": {
+      "min": 1000,
+      "max": 1000
+    },
+    "beam_after": false
+  },
+  {
+    "type": "glass_1",
+    "name": "Glass 1m",
+    "size": {
+      "min": 1000,
+      "max": 1000
+    },
+    "beam_after": true
+  },
+  {
+    "type": "glass_2",
+    "name": "Glass 2m",
+    "size": {
+      "min": 2000,
+      "max": 2000
+    },
+    "beam_after": true
+  },
+  {
+    "type": "glass_panel_2",
+    "name": "Glass panel 2 sections",
+    "size": {
+      "min": 2000,
+      "max": 2000
+    },
+    "beam_after": true
+  },
+  {
+    "type": "glass_panel_3",
+    "name": "Glass panel 3 sections",
+    "size": {
+      "min": 2500,
+      "max": 3000
+    },
+    "beam_after": true
+  },
+  {
+    "type": "glass_panel_4",
+    "name": "Glass panel 4 sections",
+    "size": {
+      "min": 3500,
+      "max": 4000
+    },
+    "beam_after": true
+  }
+]
