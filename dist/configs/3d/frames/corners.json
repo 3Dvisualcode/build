@@ -1,0 +1,116 @@
+{
+  "textures": [
+    {
+      "name": "texture_wood",
+      "url": "./assets/textures/wood/texture_wood.jpg"
+    },
+    {
+      "name": "texture_wood_normal",
+      "url": "./assets/textures/wood/texture_wood_normal.jpg"
+    }
+  ],
+  "models": [
+    {
+      "name": "balk_corner",
+      "url": "./assets/models/balk_corner.obj"
+    }
+  ],
+  "materials": [
+    {
+      "name": "material_wood",
+      "type": "standart",
+      "color": "#ffffff",
+      "map": "texture_wood",
+      "normalMap": "texture_wood_normal",
+      "emissive": "#333333",
+      "roughness": 1,
+      "metalness": 0,
+      "opacity": 0,
+      "transparent": false
+    }
+  ],
+  "objects": [
+    {
+      "name": "balk_corner_lt",
+      "model": "balk_corner",
+      "material": "material_wood",
+      "position": {
+        "x": 0,
+        "y": -2.171,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 90,
+        "z": 0
+      }
+    },
+    {
+      "name": "balk_corner_lb",
+      "model": "balk_corner",
+      "material": "material_wood"
+    },
+    {
+      "name": "balk_corner_rt",
+      "model": "balk_corner",
+      "material": "material_wood",
+      "position": {
+        "x": 0,
+        "y": -2.171,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": -90,
+        "z": 0
+      }
+    },
+    {
+      "name": "balk_corner_rb",
+      "model": "balk_corner",
+      "material": "material_wood",
+      "rotation": {
+        "x": 270,
+        "y": 0,
+        "z": 0
+      }
+    }
+  ],
+  "type": "corners",
+  "parts": [
+    {
+      "object": "balk_corner_lt",
+      "relative": {
+        "y": {
+          "a": 1,
+          "b": 0
+        }
+      }
+    },
+    {
+      "object": "balk_corner_lb"
+    },
+    {
+      "object": "balk_corner_rt",
+      "relative": {
+        "x": {
+          "a": 1,
+          "b": 0
+        },
+        "y": {
+          "a": 1,
+          "b": 0
+        }
+      }
+    },
+    {
+      "object": "balk_corner_rb",
+      "relative": {
+        "x": {
+          "a": 1,
+          "b": 0
+        }
+      }
+    }
+  ]
+}

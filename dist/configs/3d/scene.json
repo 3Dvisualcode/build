@@ -1,10 +1,16 @@
 {
   "background": "#dddddd",
   "camera": {
+    "fov": 30,
     "position": {
-      "x": -3,
-      "y": 2,
-      "z": 8
+      "x": 0,
+      "y": 3,
+      "z": 18
+    },
+    "target": {
+      "x": 0,
+      "y": 0,
+      "z": 0
     }
   },
   "environment": "./configs/3d/environment.json",

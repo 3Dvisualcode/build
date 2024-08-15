@@ -22,10 +22,10 @@
       "color": "#ffffff",
       "map": "texture_wood",
       "normalMap": "texture_wood_normal",
-      "emissive": "#333333",
+      "emissive": "#222222",
       "roughness": 1,
-      "metalness": 0,
-      "opacity": 0,
+      "metalness": 0.3,
+      "opacity": 1,
       "transparent": false
     }
   ],

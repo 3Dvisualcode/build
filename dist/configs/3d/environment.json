@@ -1,14 +1,21 @@
 {
   "lights": [
     {
+      "name": "sky",
+      "type": "hemisphere",
+      "color": "0xffffff",
+      "ground": "0xffffff",
+      "intencity": 1.5
+    },
+    {
       "name": "light_1",
       "type": "point",
       "color": "0xFFFFFF",
       "intencity": 20,
       "position": {
-        "x": 10,
+        "x": 6.5,
         "y": 3,
-        "z": 0
+        "z": 9.5
       }
     },
     {
@@ -17,9 +24,9 @@
       "color": "0xFFFFFF",
       "intencity": 20,
       "position": {
-        "x": -10,
+        "x": -6.5,
         "y": 3,
-        "z": 0
+        "z": 9.5
       }
     },
     {
@@ -28,9 +35,9 @@
       "color": "0xFFFFFF",
       "intencity": 70,
       "position": {
-        "x": 0,
+        "x": -6.5,
         "y": 3,
-        "z": 5
+        "z": -9.5
       }
     },
     {
@@ -39,9 +46,9 @@
       "color": "0xFFFFFF",
       "intencity": 70,
       "position": {
-        "x": 0,
+        "x": 6.5,
         "y": 3,
-        "z": -5
+        "z": -9.5
       }
     }
   ],
@@ -59,10 +66,9 @@
   "materials": [
     {
       "name": "ground",
-      "type": "phong",
+      "type": "standart",
       "map": "tiles",
-      "color": "#dddd88",
-      "roughness": 0.65,
+      "roughness": 0.9,
       "metalness": 0.3
     }
   ],
