@@ -89,5 +89,10 @@
         "z": 0
       }
     }
-  ]
+  ],
+  "ground": {
+    "name": "groundPlane",
+    "addWidth": 2000,
+    "addDepth": 2000
+  }
 }
