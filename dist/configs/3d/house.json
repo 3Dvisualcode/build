@@ -2,11 +2,11 @@
   "textures": [
     {
       "name": "texture_wood",
-      "url": "./assets/textures/wood/texture_wood.jpg"
+      "url": "./assets/textures/wood/texture_wood_90.jpg"
     },
     {
       "name": "texture_wood_normal",
-      "url": "./assets/textures/wood/texture_wood_normal.jpg"
+      "url": "./assets/textures/wood/texture_wood_90_normal.jpg"
     }
   ],
   "models": [
