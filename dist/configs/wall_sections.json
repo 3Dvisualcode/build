@@ -7,7 +7,15 @@
       "max": 999999999
     },
     "beam_after": false,
-    "frame": []
+    "frame": [
+      {
+        "type": "corners",
+        "size": {
+          "min": 0,
+          "max": 999999999
+        }
+      }
+    ]
   },
   {
     "type": "wood_fill",

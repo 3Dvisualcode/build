@@ -46,11 +46,6 @@
       }
     },
     {
-      "name": "balk_corner_lb",
-      "model": "balk_corner",
-      "material": "material_wood"
-    },
-    {
       "name": "balk_corner_rt",
       "model": "balk_corner",
       "material": "material_wood",
@@ -62,16 +57,6 @@
       "rotation": {
         "x": 0,
         "y": -90,
-        "z": 0
-      }
-    },
-    {
-      "name": "balk_corner_rb",
-      "model": "balk_corner",
-      "material": "material_wood",
-      "rotation": {
-        "x": 270,
-        "y": 0,
         "z": 0
       }
     }
@@ -88,9 +73,6 @@
       }
     },
     {
-      "object": "balk_corner_lb"
-    },
-    {
       "object": "balk_corner_rt",
       "relative": {
         "x": {
@@ -98,15 +80,6 @@
           "b": 0
         },
         "y": {
-          "a": 1,
-          "b": 0
-        }
-      }
-    },
-    {
-      "object": "balk_corner_rb",
-      "relative": {
-        "x": {
           "a": 1,
           "b": 0
         }

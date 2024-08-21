@@ -49,5 +49,6 @@
       "y": 2200,
       "z": 150
     }
-  }
+  },
+  "sections": "./configs/3d/wall_sections.json"
 }
