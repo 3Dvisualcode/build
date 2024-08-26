@@ -24,7 +24,16 @@
       "min": 0,
       "max": 999999999
     },
-    "frame": [],
+    "frame": [
+      {
+        "type": "wood_fill_carcas",
+        "name": "Wall carcas",
+        "size": {
+          "min": 2000,
+          "max": 999999999
+        }
+      }
+    ],
     "beam_after": true
   },
   {
@@ -34,7 +43,8 @@
       "min": 150,
       "max": 150
     },
-    "beam_after": false
+    "beam_after": false,
+    "frame": []
   },
   {
     "type": "zhaluzi",
@@ -43,7 +53,8 @@
       "min": 1000,
       "max": 1000
     },
-    "beam_after": false
+    "beam_after": false,
+    "frame": []
   },
   {
     "type": "glass_1",
@@ -52,7 +63,8 @@
       "min": 1000,
       "max": 1000
     },
-    "beam_after": true
+    "beam_after": true,
+    "frame": []
   },
   {
     "type": "glass_2",
@@ -61,7 +73,8 @@
       "min": 2000,
       "max": 2000
     },
-    "beam_after": true
+    "beam_after": true,
+    "frame": []
   },
   {
     "type": "glass_panel_2",
@@ -70,7 +83,8 @@
       "min": 2000,
       "max": 2000
     },
-    "beam_after": true
+    "beam_after": true,
+    "frame": []
   },
   {
     "type": "glass_panel_3",
@@ -79,7 +93,8 @@
       "min": 2500,
       "max": 3000
     },
-    "beam_after": true
+    "beam_after": true,
+    "frame": []
   },
   {
     "type": "glass_panel_4",
@@ -88,6 +103,7 @@
       "min": 3500,
       "max": 4000
     },
-    "beam_after": true
+    "beam_after": true,
+    "frame": []
   }
 ]

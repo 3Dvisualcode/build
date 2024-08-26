@@ -4,5 +4,98 @@
     "frames": [
       "./configs/3d/frames/corners.json"
     ]
+  },
+  {
+    "textures": [
+      {
+        "name": "texture_wood",
+        "url": "./assets/textures/wood/texture_wood_90.jpg"
+      },
+      {
+        "name": "texture_wood_normal",
+        "url": "./assets/textures/wood/texture_wood_90_normal.jpg"
+      }
+    ],
+    "models": [
+      {
+        "name": "balk_244mm",
+        "url": "./assets/models/balk_244mm.obj"
+      }
+    ],
+    "materials": [
+      {
+        "name": "material_wood",
+        "type": "standart",
+        "color": "#ffffff",
+        "map": "texture_wood",
+        "normalMap": "texture_wood_normal",
+        "emissive": "#222222",
+        "roughness": 1,
+        "metalness": 0.3,
+        "opacity": 1,
+        "transparent": false
+      }
+    ],
+    "objects": [
+      {
+        "name": "beam",
+        "model": "balk_244mm",
+        "material": "material_wood",
+        "position": {
+          "x": 0.075,
+          "y": 0,
+          "z": 0
+        }
+      }
+    ],
+    "type": "beam",
+    "frames": [],
+    "object": "beam",
+    "initial": {
+      "x": 150,
+      "y": 2200,
+      "z": 0
+    }
+  },
+  {
+    "textures": [
+      {
+        "name": "texture_wood",
+        "url": "./assets/textures/wood/texture_wood.jpg"
+      }
+    ],
+    "models": [
+      {
+        "name": "wall_big",
+        "url": "./assets/models/wall/wall_big.obj"
+      }
+    ],
+    "materials": [
+      {
+        "name": "wood_fill_material",
+        "type": "standart",
+        "color": "#ffffff",
+        "map": "texture_wood",
+        "metalness": 0.8,
+        "roughness": 0.55
+      }
+    ],
+    "objects": [
+      {
+        "name": "wood_wall",
+        "model": "wall_big",
+        "material": "wood_fill_material"
+      }
+    ],
+    "type": "wood_fill",
+    "frames": [
+      "./configs/3d/frames/wood_fill_carcas.json"
+    ],
+    "object": "wood_wall",
+    "initial": {
+      "x": 2775,
+      "y": 2200,
+      "z": 0
+    }
   }
 ]

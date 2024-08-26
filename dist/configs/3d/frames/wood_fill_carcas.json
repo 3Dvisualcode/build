@@ -1,0 +1,43 @@
+{
+  "textures": [
+    {
+      "name": "texture_wood",
+      "url": "./assets/textures/wood/texture_wood.jpg"
+    }
+  ],
+  "models": [
+    {
+      "name": "wall_big_carcas",
+      "url": "./assets/models/wall/wall_big_carcas.obj"
+    }
+  ],
+  "materials": [
+    {
+      "name": "wood_fill_material",
+      "type": "standart",
+      "color": "#ffffff",
+      "map": "texture_wood",
+      "metalness": 0.8,
+      "roughness": 0.55
+    }
+  ],
+  "objects": [
+    {
+      "name": "wood_fill_carcas",
+      "model": "wall_big_carcas",
+      "material": "wood_fill_material"
+    }
+  ],
+  "type": "wood_fill_carcas",
+  "parts": [
+    {
+      "object": "wood_fill_carcas",
+      "scaling": true,
+      "initial": {
+        "x": 2775,
+        "y": 2200,
+        "z": 0
+      }
+    }
+  ]
+}
