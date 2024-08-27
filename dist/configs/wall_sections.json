@@ -34,7 +34,7 @@
         }
       }
     ],
-    "beam_after": true
+    "beam_after": false
   },
   {
     "type": "beam",
@@ -77,14 +77,31 @@
     "frame": []
   },
   {
-    "type": "glass_panel_2",
+    "type": "glass_door_2m",
     "name": "Glass panel 2 sections",
     "size": {
       "min": 2000,
       "max": 2000
     },
     "beam_after": true,
-    "frame": []
+    "frame": [
+      {
+        "type": "glass_door_2m_frame",
+        "name": "Glass door 2m frame",
+        "size": {
+          "min": 0,
+          "max": 999999999
+        }
+      },
+      {
+        "type": "glass_door_2m_glass",
+        "name": "Glass door 2m glass",
+        "size": {
+          "min": 0,
+          "max": 999999999
+        }
+      }
+    ]
   },
   {
     "type": "glass_panel_3",
