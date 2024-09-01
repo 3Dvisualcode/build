@@ -104,5 +104,71 @@
       "./configs/3d/frames/glass_door_2m_frame.json",
       "./configs/3d/frames/glass_door_2m_glass.json"
     ]
+  },
+  {
+    "type": "glass_door_3m",
+    "frames": [
+      "./configs/3d/frames/glass_door_3m_frame.json",
+      "./configs/3d/frames/glass_door_3m_glass.json"
+    ]
+  },
+  {
+    "type": "glass_door_4m",
+    "frames": [
+      "./configs/3d/frames/glass_door_4m_frame.json",
+      "./configs/3d/frames/glass_door_4m_glass.json"
+    ]
+  },
+  {
+    "textures": [
+      {
+        "name": "texture_wood",
+        "url": "./assets/textures/wood/texture_wood_90.jpg"
+      },
+      {
+        "name": "texture_wood_normal",
+        "url": "./assets/textures/wood/texture_wood_90_normal.jpg"
+      }
+    ],
+    "models": [
+      {
+        "name": "zhaluzi",
+        "url": "./assets/models/zhaluzi/zhaluzi.obj"
+      }
+    ],
+    "materials": [
+      {
+        "name": "material_wood",
+        "type": "standart",
+        "color": "#ffffff",
+        "map": "texture_wood",
+        "normalMap": "texture_wood_normal",
+        "emissive": "#222222",
+        "roughness": 1,
+        "metalness": 0.3,
+        "opacity": 1,
+        "transparent": false
+      }
+    ],
+    "objects": [
+      {
+        "name": "zhaluzi",
+        "model": "zhaluzi",
+        "material": "material_wood",
+        "position": {
+          "x": 0.5,
+          "y": 0,
+          "z": 0
+        }
+      }
+    ],
+    "type": "zhaluzi",
+    "frames": [],
+    "object": "zhaluzi",
+    "initial": {
+      "x": 1000,
+      "y": 2175,
+      "z": 0
+    }
   }
 ]

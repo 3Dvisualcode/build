@@ -168,8 +168,17 @@
     </div>
     <div style="display: flex; flex-direction: row; gap: 10px">
       <button id="switchWallType" disabled>Switch type</button>
+      <div>
+        <label for="sectionSelect">Section type: </label>
+        <select id="sectionSelect" name="sectionSelect">
+          <option value="glass_door_2m">Glass door 2m</option>
+          <option value="glass_door_3m">Glass door 3m</option>
+          <option value="glass_door_4m">Glass door 4m</option>
+          <option value="zhaluzi">Zhaluzi</option>
+        </select>
+      </div>
       <button id="addSection">Add section</button>
-      <button id="removeSection">Remove section</button>
+      <button id="removeSection">Remove first section</button>
     </div>
   </body>
 </html>

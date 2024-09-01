@@ -6,12 +6,12 @@
       "min": 0,
       "max": 999999999
     },
-    "beam_after": false,
+    "separator_after": false,
     "frame": [
       {
         "type": "corners",
         "size": {
-          "min": 0,
+          "min": 1000,
           "max": 999999999
         }
       }
@@ -34,7 +34,7 @@
         }
       }
     ],
-    "beam_after": false
+    "separator_after": false
   },
   {
     "type": "beam",
@@ -43,17 +43,17 @@
       "min": 150,
       "max": 150
     },
-    "beam_after": false,
+    "separator_after": false,
     "frame": []
   },
   {
     "type": "zhaluzi",
-    "name": "",
+    "name": "Zhaluzi",
     "size": {
       "min": 1000,
       "max": 1000
     },
-    "beam_after": false,
+    "separator_after": false,
     "frame": []
   },
   {
@@ -63,7 +63,7 @@
       "min": 1000,
       "max": 1000
     },
-    "beam_after": true,
+    "separator_after": true,
     "frame": []
   },
   {
@@ -73,7 +73,7 @@
       "min": 2000,
       "max": 2000
     },
-    "beam_after": true,
+    "separator_after": true,
     "frame": []
   },
   {
@@ -83,7 +83,7 @@
       "min": 2000,
       "max": 2000
     },
-    "beam_after": true,
+    "separator_after": true,
     "frame": [
       {
         "type": "glass_door_2m_frame",
@@ -104,13 +104,67 @@
     ]
   },
   {
+    "type": "glass_door_3m",
+    "name": "Glass panel 3 sections",
+    "size": {
+      "min": 3000,
+      "max": 3000
+    },
+    "separator_after": true,
+    "frame": [
+      {
+        "type": "glass_door_3m_frame",
+        "name": "Glass door 3m frame",
+        "size": {
+          "min": 0,
+          "max": 999999999
+        }
+      },
+      {
+        "type": "glass_door_3m_glass",
+        "name": "Glass door 3m glass",
+        "size": {
+          "min": 0,
+          "max": 999999999
+        }
+      }
+    ]
+  },
+  {
+    "type": "glass_door_4m",
+    "name": "Glass panel 4 sections",
+    "size": {
+      "min": 4000,
+      "max": 4000
+    },
+    "separator_after": true,
+    "frame": [
+      {
+        "type": "glass_door_4m_frame",
+        "name": "Glass door 4m frame",
+        "size": {
+          "min": 0,
+          "max": 999999999
+        }
+      },
+      {
+        "type": "glass_door_4m_glass",
+        "name": "Glass door 4m glass",
+        "size": {
+          "min": 0,
+          "max": 999999999
+        }
+      }
+    ]
+  },
+  {
     "type": "glass_panel_3",
     "name": "Glass panel 3 sections",
     "size": {
       "min": 2500,
       "max": 3000
     },
-    "beam_after": true,
+    "separator_after": true,
     "frame": []
   },
   {
@@ -120,7 +174,7 @@
       "min": 3500,
       "max": 4000
     },
-    "beam_after": true,
+    "separator_after": true,
     "frame": []
   }
 ]
