@@ -99,6 +99,20 @@
     }
   },
   {
+    "type": "glass_1m",
+    "frames": [
+      "./configs/3d/frames/glass_1m_frame.json",
+      "./configs/3d/frames/glass_1m_glass.json"
+    ]
+  },
+  {
+    "type": "glass_2m",
+    "frames": [
+      "./configs/3d/frames/glass_2m_frame.json",
+      "./configs/3d/frames/glass_2m_glass.json"
+    ]
+  },
+  {
     "type": "glass_door_2m",
     "frames": [
       "./configs/3d/frames/glass_door_2m_frame.json",

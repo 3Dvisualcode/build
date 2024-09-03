@@ -57,30 +57,64 @@
     "frame": []
   },
   {
-    "type": "glass_1",
+    "type": "glass_1m",
     "name": "Glass 1m",
     "size": {
       "min": 1000,
       "max": 1000
     },
     "separator_after": true,
-    "frame": []
+    "frame": [
+      {
+        "type": "glass_1m_frame",
+        "name": "Glass 1m frame",
+        "size": {
+          "min": 0,
+          "max": 999999999
+        }
+      },
+      {
+        "type": "glass_1m_glass",
+        "name": "Glass 1m glass",
+        "size": {
+          "min": 0,
+          "max": 999999999
+        }
+      }
+    ]
   },
   {
-    "type": "glass_2",
+    "type": "glass_2m",
     "name": "Glass 2m",
     "size": {
       "min": 2000,
       "max": 2000
     },
     "separator_after": true,
-    "frame": []
+    "frame": [
+      {
+        "type": "glass_2m_frame",
+        "name": "Glass 2m frame",
+        "size": {
+          "min": 0,
+          "max": 999999999
+        }
+      },
+      {
+        "type": "glass_2m_glass",
+        "name": "Glass 2m glass",
+        "size": {
+          "min": 0,
+          "max": 999999999
+        }
+      }
+    ]
   },
   {
     "type": "glass_door_2m",
     "name": "Glass panel 2 sections",
     "size": {
-      "min": 2000,
+      "min": 1500,
       "max": 2000
     },
     "separator_after": true,
@@ -107,7 +141,7 @@
     "type": "glass_door_3m",
     "name": "Glass panel 3 sections",
     "size": {
-      "min": 3000,
+      "min": 2500,
       "max": 3000
     },
     "separator_after": true,
@@ -134,7 +168,7 @@
     "type": "glass_door_4m",
     "name": "Glass panel 4 sections",
     "size": {
-      "min": 4000,
+      "min": 3500,
       "max": 4000
     },
     "separator_after": true,
@@ -156,25 +190,5 @@
         }
       }
     ]
-  },
-  {
-    "type": "glass_panel_3",
-    "name": "Glass panel 3 sections",
-    "size": {
-      "min": 2500,
-      "max": 3000
-    },
-    "separator_after": true,
-    "frame": []
-  },
-  {
-    "type": "glass_panel_4",
-    "name": "Glass panel 4 sections",
-    "size": {
-      "min": 3500,
-      "max": 4000
-    },
-    "separator_after": true,
-    "frame": []
   }
 ]
