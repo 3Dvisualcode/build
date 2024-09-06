@@ -1,0 +1,76 @@
+{
+  "textures": [
+    {
+      "name": "texture_wood",
+      "url": "./assets/textures/wood/texture_wood.jpg"
+    },
+    {
+      "name": "texture_wood_normal",
+      "url": "./assets/textures/wood/texture_wood_normal.jpg"
+    }
+  ],
+  "models": [
+    {
+      "name": "wall_window",
+      "url": "./assets/models/wall_window/window.obj"
+    }
+  ],
+  "materials": [
+    {
+      "name": "material_wood",
+      "type": "standart",
+      "color": "#ffffff",
+      "map": "texture_wood",
+      "normalMap": "texture_wood_normal",
+      "emissive": "#333333",
+      "roughness": 1,
+      "metalness": 0,
+      "opacity": 0,
+      "transparent": false
+    },
+    {
+      "name": "door_hingles",
+      "type": "standart",
+      "color": "#000000",
+      "metalness": 0,
+      "roughness": 1,
+      "opacity": 1,
+      "transparent": false
+    }
+  ],
+  "meshes": [
+    {
+      "name": "door_box",
+      "type": "box",
+      "material": "material_wood",
+      "size": {
+        "x": 1,
+        "y": 2.1,
+        "z": 1
+      },
+      "position": {
+        "x": 0,
+        "y": 0.95,
+        "z": 0
+      }
+    }
+  ],
+  "objects": [],
+  "type": "door_right",
+  "parts": [],
+  "cuts": [
+    {
+      "object": "door_box",
+      "relative": {
+        "x": {
+          "a": 0.5,
+          "b": 0
+        },
+        "y": {
+          "a": 0,
+          "b": 0
+        }
+      }
+    }
+  ]
+}

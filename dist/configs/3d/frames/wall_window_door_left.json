@@ -1,0 +1,147 @@
+{
+  "textures": [
+    {
+      "name": "texture_wood",
+      "url": "./assets/textures/wood/texture_wood.jpg"
+    },
+    {
+      "name": "texture_wood_normal",
+      "url": "./assets/textures/wood/texture_wood_normal.jpg"
+    }
+  ],
+  "models": [
+    {
+      "name": "wall_window",
+      "url": "./assets/models/wall_window/window.obj"
+    }
+  ],
+  "materials": [
+    {
+      "name": "material_wood",
+      "type": "standart",
+      "color": "#ffffff",
+      "map": "texture_wood",
+      "normalMap": "texture_wood_normal",
+      "emissive": "#333333",
+      "roughness": 1,
+      "metalness": 0,
+      "opacity": 0,
+      "transparent": false
+    },
+    {
+      "name": "door_hingles",
+      "type": "standart",
+      "color": "#000000",
+      "metalness": 0,
+      "roughness": 1,
+      "opacity": 1,
+      "transparent": false
+    }
+  ],
+  "meshes": [
+    {
+      "name": "window_box",
+      "type": "box",
+      "material": "glass_window_glass",
+      "size": {
+        "x": 0.8,
+        "y": 1,
+        "z": 1
+      }
+    },
+    {
+      "name": "wall_window_glass",
+      "type": "box",
+      "material": "glass_window_glass",
+      "size": {
+        "x": 0.8,
+        "y": 1,
+        "z": 0.01
+      }
+    },
+    {
+      "name": "door_box",
+      "type": "box",
+      "material": "material_wood",
+      "size": {
+        "x": 1,
+        "y": 2.1,
+        "z": 1
+      },
+      "position": {
+        "x": 0,
+        "y": 0.95,
+        "z": 0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "name": "wall_window_frame",
+      "model": "wall_window",
+      "material": "material_wood",
+      "position": {
+        "x": 0,
+        "y": -0.5,
+        "z": 0.035
+      }
+    }
+  ],
+  "type": "window_door_left",
+  "parts": [
+    {
+      "object": "wall_window_frame",
+      "relative": {
+        "x": {
+          "a": 0.5,
+          "b": 500
+        },
+        "y": {
+          "a": 0,
+          "b": 1500
+        }
+      }
+    },
+    {
+      "object": "wall_window_glass",
+      "relative": {
+        "x": {
+          "a": 0.5,
+          "b": 500
+        },
+        "y": {
+          "a": 0,
+          "b": 1500
+        }
+      }
+    }
+  ],
+  "cuts": [
+    {
+      "object": "window_box",
+      "relative": {
+        "x": {
+          "a": 0.5,
+          "b": 500
+        },
+        "y": {
+          "a": 0,
+          "b": 1500
+        }
+      }
+    },
+    {
+      "object": "door_box",
+      "relative": {
+        "x": {
+          "a": 0.5,
+          "b": -500
+        },
+        "y": {
+          "a": 0,
+          "b": 0
+        }
+      }
+    }
+  ]
+}
