@@ -11,8 +11,12 @@
   ],
   "models": [
     {
-      "name": "wall_window",
-      "url": "./assets/models/wall_window/window.obj"
+      "name": "door_dichte_wood",
+      "url": "./assets/models/doors/door_dichte_deur/door_dichte_deur_wood.obj"
+    },
+    {
+      "name": "door_dichte_hingles",
+      "url": "./assets/models/doors/door_dichte_deur/door_dichte_deur_hingles.obj"
     }
   ],
   "materials": [
@@ -55,9 +59,69 @@
       }
     }
   ],
-  "objects": [],
+  "objects": [
+    {
+      "name": "door_dichte_wood",
+      "model": "door_dichte_wood",
+      "material": "material_wood",
+      "rotation": {
+        "x": 0,
+        "y": 90,
+        "z": 0
+      },
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0.08
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": -1
+      }
+    },
+    {
+      "name": "door_dichte_hingles",
+      "model": "door_dichte_hingles",
+      "material": "door_hingles",
+      "rotation": {
+        "x": 0,
+        "y": 90,
+        "z": 0
+      },
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0.08
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": -1
+      }
+    }
+  ],
   "type": "door_right",
-  "parts": [],
+  "parts": [
+    {
+      "object": "door_dichte_wood",
+      "relative": {
+        "x": {
+          "a": 0.5,
+          "b": 0
+        }
+      }
+    },
+    {
+      "object": "door_dichte_hingles",
+      "relative": {
+        "x": {
+          "a": 0.5,
+          "b": 0
+        }
+      }
+    }
+  ],
   "cuts": [
     {
       "object": "door_box",

@@ -11,8 +11,12 @@
   ],
   "models": [
     {
-      "name": "wall_window",
-      "url": "./assets/models/wall_window/window.obj"
+      "name": "door_double_dichte_wood",
+      "url": "./assets/models/doors/door_dubbele_dichte_deur/door_dubbele_dichte_deur_wood.obj"
+    },
+    {
+      "name": "door_double_dichte_hingles",
+      "url": "./assets/models/doors/door_dubbele_dichte_deur/door_dubbele_dichte_deur_hinges.obj"
     }
   ],
   "materials": [
@@ -44,7 +48,7 @@
       "type": "box",
       "material": "material_wood",
       "size": {
-        "x": 1.8,
+        "x": 1.9,
         "y": 2.1,
         "z": 1
       },
@@ -55,19 +59,65 @@
       }
     }
   ],
-  "objects": [],
+  "objects": [
+    {
+      "name": "door_double_dichte_wood",
+      "model": "door_double_dichte_wood",
+      "material": "material_wood",
+      "rotation": {
+        "x": 0,
+        "y": 90,
+        "z": 0
+      },
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0.1
+      }
+    },
+    {
+      "name": "door_double_dichte_hingles",
+      "model": "door_double_dichte_hingles",
+      "material": "door_hingles",
+      "rotation": {
+        "x": 0,
+        "y": 90,
+        "z": 0
+      },
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0.1
+      }
+    }
+  ],
   "type": "double_doors",
-  "parts": [],
+  "parts": [
+    {
+      "object": "door_double_dichte_wood",
+      "relative": {
+        "x": {
+          "a": 0.5,
+          "b": 0
+        }
+      }
+    },
+    {
+      "object": "door_double_dichte_hingles",
+      "relative": {
+        "x": {
+          "a": 0.5,
+          "b": 0
+        }
+      }
+    }
+  ],
   "cuts": [
     {
       "object": "double_doors_box",
       "relative": {
         "x": {
           "a": 0.5,
-          "b": 0
-        },
-        "y": {
-          "a": 0,
           "b": 0
         }
       }
