@@ -50,5 +50,28 @@
       "z": 150
     }
   },
-  "sections": "./configs/3d/wall_sections.json"
+  "sections": [
+    "./configs/3d/sections/empty.json",
+    "./configs/3d/sections/beam.json",
+    "./configs/3d/sections/glass_1m.json",
+    "./configs/3d/sections/glass_2m.json",
+    "./configs/3d/sections/glass_door_2m.json",
+    "./configs/3d/sections/glass_door_3m.json",
+    "./configs/3d/sections/glass_door_4m.json",
+    "./configs/3d/sections/wood_fill.json",
+    "./configs/3d/sections/wood_fill_door_left.json",
+    "./configs/3d/sections/wood_fill_door_right.json",
+    "./configs/3d/sections/wood_fill_double_doors.json",
+    "./configs/3d/sections/wood_fill_window.json",
+    "./configs/3d/sections/wood_fill_window_door_left.json",
+    "./configs/3d/sections/wood_fill_window_door_right.json",
+    "./configs/3d/sections/wood_fill2.json",
+    "./configs/3d/sections/wood_fill2_door_left.json",
+    "./configs/3d/sections/wood_fill2_door_right.json",
+    "./configs/3d/sections/wood_fill2_double_doors.json",
+    "./configs/3d/sections/wood_fill2_window.json",
+    "./configs/3d/sections/wood_fill2_window_door_left.json",
+    "./configs/3d/sections/wood_fill2_window_door_right.json",
+    "./configs/3d/sections/zhaluzi.json"
+  ]
 }

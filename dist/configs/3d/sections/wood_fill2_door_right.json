@@ -1,0 +1,64 @@
+{
+  "type": "wood_fill2_door_right",
+  "textures": [
+    {
+      "name": "texture_wood",
+      "url": "./assets/textures/wood/texture_wood.jpg"
+    }
+  ],
+  "models": [
+    {
+      "name": "wall_big",
+      "url": "./assets/models/wall/wall_big.obj"
+    }
+  ],
+  "materials": [
+    {
+      "name": "wood_fill_material",
+      "type": "standart",
+      "color": "#ffffff",
+      "map": "texture_wood",
+      "metalness": 0.8,
+      "roughness": 0.55
+    }
+  ],
+  "objects": [
+    {
+      "name": "wood_wall",
+      "model": "wall_big",
+      "material": "wood_fill_material"
+    },
+    {
+      "name": "wood_wall_inner",
+      "model": "wall_big",
+      "material": "wood_fill_material",
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": -1
+      }
+    }
+  ],
+  "frames": [
+    "./configs/3d/frames/wood_fill_carcas.json",
+    "./configs/3d/frames/wall_door_right.json"
+  ],
+  "sections": [
+    {
+      "object": "wood_wall",
+      "initial": {
+        "x": 2775,
+        "y": 2200,
+        "z": 0
+      }
+    },
+    {
+      "object": "wood_wall_inner",
+      "initial": {
+        "x": 2775,
+        "y": 2200,
+        "z": 0
+      }
+    }
+  ]
+}
