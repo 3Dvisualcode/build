@@ -49,11 +49,21 @@
       </div>
       <label for="roofType">Choose roof type</label>
       <select name="roofType" id="roofType">
-        <option value="platdak">Platdak</option>
         <option value="zadeldak">Zadeldak</option>
+        <option value="platdak">Platdak</option>
       </select>
       <div>
         <button id="changeRoofTypeButton">Change roof type</button>
+      </div>
+      <select name="roofMaterial" id="roofMaterial">
+        <option value="dakpanplaat zwart">Dakpanplaat Zwart</option>
+        <option value="dakpanplaat rood">Dakpanplaat Rood</option>
+        <option value="leien dak">Leien dak</option>
+        <option value="geglazuurde dakpannen zwart">Geglazuurde dakpannen Zwart</option>
+        <option value="geglazuurde dakpannen rood">Geglazuurde dakpannen Rood</option>
+      </select>
+      <div>
+        <button id="changeRoofMaterialButton">Change roof material</button>
       </div>
       <div style="display: flex; flex-direction: column">
         <div style="display: flex; flex-direction: column">
@@ -179,19 +189,12 @@
         <select id="wallTypeSelect" name="wallTypeSelect">
           <option value="empty">Empty</option>
           <option value="wood_fill">Wood</option>
-          <option value="wood_fill2">Wood (2)</option>
           <option value="wood_fill_window">Wood with window</option>
-          <option value="wood_fill2_window">Wood (2) with window</option>
           <option value="wood_fill_door_left">Wood with door left</option>
-          <option value="wood_fill2_door_left">Wood (2) with door left</option>
           <option value="wood_fill_door_right">Wood with door right</option>
-          <option value="wood_fill2_door_right">Wood (2) with door right</option>
           <option value="wood_fill_window_door_left">Wood with window and door left</option>
-          <option value="wood_fill2_window_door_left">Wood (2) with window and door left</option>
           <option value="wood_fill_window_door_right">Wood with window and door right</option>
-          <option value="wood_fill2_window_door_right">Wood (2) with window and door right</option>
           <option value="wood_fill_double_doors">Wood with double doors</option>
-          <option value="wood_fill2_double_doors">Wood (2) with double doors</option>
         </select>
       </div>
       <button id="switchWallType" disabled>Switch type</button>

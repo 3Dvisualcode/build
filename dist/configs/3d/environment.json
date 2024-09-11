@@ -50,6 +50,28 @@
         "y": 3,
         "z": -9.5
       }
+    },
+    {
+      "name": "light_5",
+      "type": "spot",
+      "color": "0xFFFFFF",
+      "intencity": 100,
+      "position": {
+        "x": 6.5,
+        "y": 3,
+        "z": -9.5
+      }
+    },
+    {
+      "name": "light_5",
+      "type": "spot",
+      "color": "0xFFFFFF",
+      "intencity": 100,
+      "position": {
+        "x": 6.5,
+        "y": 3,
+        "z": -9.5
+      }
     }
   ],
   "textures": [

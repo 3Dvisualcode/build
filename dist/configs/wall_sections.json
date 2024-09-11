@@ -37,25 +37,6 @@
     "separator_after": false
   },
   {
-    "type": "wood_fill2",
-    "name": "Wood double side",
-    "size": {
-      "min": 0,
-      "max": 999999999
-    },
-    "frame": [
-      {
-        "type": "wood_fill_carcas",
-        "name": "Wall carcas",
-        "size": {
-          "min": 2000,
-          "max": 999999999
-        }
-      }
-    ],
-    "separator_after": false
-  },
-  {
     "type": "beam",
     "name": "Beam",
     "size": {
@@ -237,34 +218,8 @@
     ]
   },
   {
-    "type": "wood_fill2_window",
-    "name": "Wood fill double side with window",
-    "size": {
-      "min": 1500,
-      "max": 999999999
-    },
-    "separator_after": false,
-    "frame": [
-      {
-        "type": "window",
-        "size": {
-          "min": 0,
-          "max": 999999999
-        }
-      },
-      {
-        "type": "wood_fill_carcas",
-        "name": "Wall carcas",
-        "size": {
-          "min": 2000,
-          "max": 999999999
-        }
-      }
-    ]
-  },
-  {
     "type": "wood_fill_door_left",
-    "name": "Wood fill double side with door left",
+    "name": "Wood fill with door left",
     "size": {
       "min": 1500,
       "max": 999999999
@@ -282,33 +237,7 @@
         "type": "wood_fill_carcas",
         "name": "Wall carcas",
         "size": {
-          "min": 2000,
-          "max": 999999999
-        }
-      }
-    ]
-  },
-  {
-    "type": "wood_fill2_door_left",
-    "name": "Wood fill double side with door left",
-    "size": {
-      "min": 1500,
-      "max": 999999999
-    },
-    "separator_after": false,
-    "frame": [
-      {
-        "type": "door_left",
-        "size": {
-          "min": 0,
-          "max": 999999999
-        }
-      },
-      {
-        "type": "wood_fill_carcas",
-        "name": "Wall carcas",
-        "size": {
-          "min": 2000,
+          "min": 999999999,
           "max": 999999999
         }
       }
@@ -334,33 +263,7 @@
         "type": "wood_fill_carcas",
         "name": "Wall carcas",
         "size": {
-          "min": 2000,
-          "max": 999999999
-        }
-      }
-    ]
-  },
-  {
-    "type": "wood_fill2_door_right",
-    "name": "Wood fill double side with door right",
-    "size": {
-      "min": 1500,
-      "max": 999999999
-    },
-    "separator_after": false,
-    "frame": [
-      {
-        "type": "door_right",
-        "size": {
-          "min": 0,
-          "max": 999999999
-        }
-      },
-      {
-        "type": "wood_fill_carcas",
-        "name": "Wall carcas",
-        "size": {
-          "min": 2000,
+          "min": 999999999,
           "max": 999999999
         }
       }
@@ -386,33 +289,7 @@
         "type": "wood_fill_carcas",
         "name": "Wall carcas",
         "size": {
-          "min": 2000,
-          "max": 999999999
-        }
-      }
-    ]
-  },
-  {
-    "type": "wood_fill2_window_door_left",
-    "name": "Wood fill double side with window and door left",
-    "size": {
-      "min": 3000,
-      "max": 999999999
-    },
-    "separator_after": false,
-    "frame": [
-      {
-        "type": "window_door_left",
-        "size": {
-          "min": 0,
-          "max": 999999999
-        }
-      },
-      {
-        "type": "wood_fill_carcas",
-        "name": "Wall carcas",
-        "size": {
-          "min": 2000,
+          "min": 999999999,
           "max": 999999999
         }
       }
@@ -438,33 +315,7 @@
         "type": "wood_fill_carcas",
         "name": "Wall carcas",
         "size": {
-          "min": 2000,
-          "max": 999999999
-        }
-      }
-    ]
-  },
-  {
-    "type": "wood_fill2_window_door_right",
-    "name": "Wood fill double side with window and door right",
-    "size": {
-      "min": 3000,
-      "max": 999999999
-    },
-    "separator_after": false,
-    "frame": [
-      {
-        "type": "window_door_right",
-        "size": {
-          "min": 0,
-          "max": 999999999
-        }
-      },
-      {
-        "type": "wood_fill_carcas",
-        "name": "Wall carcas",
-        "size": {
-          "min": 2000,
+          "min": 999999999,
           "max": 999999999
         }
       }
@@ -490,33 +341,7 @@
         "type": "wood_fill_carcas",
         "name": "Wall carcas",
         "size": {
-          "min": 2000,
-          "max": 999999999
-        }
-      }
-    ]
-  },
-  {
-    "type": "wood_fill2_double_doors",
-    "name": "Wood fill double side with double doors",
-    "size": {
-      "min": 3000,
-      "max": 999999999
-    },
-    "separator_after": false,
-    "frame": [
-      {
-        "type": "double_doors",
-        "size": {
-          "min": 0,
-          "max": 999999999
-        }
-      },
-      {
-        "type": "wood_fill_carcas",
-        "name": "Wall carcas",
-        "size": {
-          "min": 2000,
+          "min": 999999999,
           "max": 999999999
         }
       }
