@@ -114,13 +114,16 @@
       </div>
     </div>
     <div style="display: flex; flex-direction: row; gap: 10px">
+        <div>
+            <button id="selectWallButton">Select in 3D</button>
+        </div>
       <div>
         <label for="wallSelect">Wall ID: </label>
         <select id="wallSelect" name="wallSelect">
           <option>None</option>
         </select>
       </div>
-      <button id="deleteWall" disabled>Delete wall</button>
+      <button id="deleteWall" >Delete wall</button>
     </div>
     <div style="display: flex; flex-direction: row; gap: 10px">
       Add wall from [
@@ -204,7 +207,7 @@
           <option value="wood_fill2_double_doors">Wood (2) with double doors</option>
         </select>
       </div>
-      <button id="switchWallType" disabled>Switch type</button>
+      <button id="switchWallType" >Switch type</button>
       <div>
         <label for="sectionSelect">Section type: </label>
         <select id="sectionSelect" name="sectionSelect">
