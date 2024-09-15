@@ -29,7 +29,6 @@
       "type": "standart",
       "color": "#ffffff",
       "map": "texture_wood",
-      "normalMap": "texture_wood_normal",
       "emissive": "#333333",
       "roughness": 1,
       "metalness": 0,
