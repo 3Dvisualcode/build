@@ -23,7 +23,7 @@
         <button id="changeSizeButton">Change Size</button>
       </div>
     </div>
-    <div style="display: flex; flex-direction: row; gap: 10px">
+    <div style="display: flex; flex-direction: row; gap: 10px; flex-wrap: wrap;">
       <div>
         <label for="column">Column:</label>
         <input type="number" id="column" name="column" value="150" />
@@ -77,6 +77,28 @@
       </select>
       <div>
         <button id="changeRoofAngleButton">Change roof angle</button>
+      </div>
+      <select name="frontSidePanel" id="frontSidePanel">
+        <option value="empty">Empty</option>
+        <option value="sturts">Sturts</option>
+        <option value="wall">Wall</option>
+        <option value="2windows">2 Windows</option>
+        <option value="headstock">HeadStock</option>
+        <option value="1window">1 Window</option>
+      </select>
+      <div>
+        <button id="frontSidePanelButton">Change front side panel</button>
+      </div>
+      <select name="backSidePanel" id="backSidePanel">
+        <option value="empty">Empty</option>
+        <option value="sturts">Sturts</option>
+        <option value="wall">Wall</option>
+        <option value="2windows">2 Windows</option>
+        <option value="headstock">HeadStock</option>
+        <option value="1window">1 Window</option>
+      </select>
+      <div>
+        <button id="backSidePanelButton">Change back side panel</button>
       </div>
       <div style="display: flex; flex-direction: column">
         <div style="display: flex; flex-direction: column">
