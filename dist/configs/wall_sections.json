@@ -521,5 +521,14 @@
         }
       }
     ]
+  },
+  {
+    "type": "brick_wood",
+    "name": "Brick with wood",
+    "size": {
+      "min": 0,
+      "max": 999999999
+    },
+    "frame": []
   }
 ]

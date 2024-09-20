@@ -1,0 +1,57 @@
+{
+  "type": "brick_wood",
+  "textures": [
+    {
+      "name": "texture_wood",
+      "url": "./assets/textures/wood/texture_wood.jpg"
+    },
+    {
+      "name": "bricks_base",
+      "url": "./assets/textures/common/bricks_baseColor_dark.png"
+    }
+  ],
+  "models": [
+    {
+      "name": "wall_big",
+      "url": "./assets/models/wall/wall_big.obj"
+    },
+    {
+      "name": "brick_wall_1m",
+      "url": "./assets/models/common/brick_wall_1m.obj"
+    }
+  ],
+  "materials": [
+    {
+      "name": "wood_fill_material",
+      "type": "standart",
+      "color": "#ffffff",
+      "map": "texture_wood",
+      "metalness": 0.8,
+      "roughness": 0.55
+    },
+    {
+      "name": "bricks_material",
+      "type": "standart",
+      "map": "bricks_base"
+    }
+  ],
+  "objects": [
+    {
+      "name": "bricks_wall",
+      "model": "brick_wall_1m",
+      "material": "bricks_material"
+    }
+  ],
+  "frames": [],
+  "sections": [
+    {
+      "object": "bricks_wall",
+      "initial": {
+        "x": 1000,
+        "y": 2200,
+        "z": 0
+      },
+      "materialScaling": true
+    }
+  ]
+}

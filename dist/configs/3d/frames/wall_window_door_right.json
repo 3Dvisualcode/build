@@ -149,8 +149,8 @@
       "object": "wall_window_frame",
       "relative": {
         "x": {
-          "a": 0.5,
-          "b": -500
+          "a": 0.33333,
+          "b": -200
         },
         "y": {
           "a": 0,
@@ -162,8 +162,8 @@
       "object": "wall_window_glass",
       "relative": {
         "x": {
-          "a": 0.5,
-          "b": -500
+          "a": 0.33333,
+          "b": -200
         },
         "y": {
           "a": 0,
@@ -175,8 +175,8 @@
       "object": "door_dichte_wood",
       "relative": {
         "x": {
-          "a": 0.5,
-          "b": 500
+          "a": 0.66666,
+          "b": 100
         }
       }
     },
@@ -184,8 +184,8 @@
       "object": "door_dichte_hingles",
       "relative": {
         "x": {
-          "a": 0.5,
-          "b": 500
+          "a": 0.66666,
+          "b": 100
         }
       }
     }
@@ -195,8 +195,8 @@
       "object": "window_box",
       "relative": {
         "x": {
-          "a": 0.5,
-          "b": -500
+          "a": 0.33333,
+          "b": -200
         },
         "y": {
           "a": 0,
@@ -208,8 +208,8 @@
       "object": "door_box",
       "relative": {
         "x": {
-          "a": 0.5,
-          "b": 500
+          "a": 0.66666,
+          "b": 100
         }
       }
     }

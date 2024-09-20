@@ -1,42 +1,37 @@
 {
   "textures": [
     {
-      "name": "texture_wood",
-      "url": "./assets/textures/wood/texture_wood.jpg"
-    },
-    {
-      "name": "texture_wood_normal",
-      "url": "./assets/textures/wood/texture_wood_normal.jpg"
+      "name": "wood_texture_base",
+      "url": "./assets/textures/common/wood_texture_base.jpg"
     }
   ],
   "models": [
     {
-      "name": "balk_corner",
-      "url": "./assets/models/balk_corner.obj"
+      "name": "kosour",
+      "url": "./assets/models/kosour.obj"
     }
   ],
   "materials": [
     {
-      "name": "material_wood",
+      "name": "material_wood_common",
       "type": "standart",
       "color": "#ffffff",
-      "map": "texture_wood",
-      "emissive": "#333333",
-      "roughness": 1,
+      "map": "wood_texture_base",
+      "emissive": "#000000",
+      "roughness": 0.5,
       "metalness": 0,
-      "opacity": 0,
       "transparent": false
     }
   ],
   "objects": [
     {
       "name": "balk_corner_lt",
-      "model": "balk_corner",
-      "material": "material_wood",
+      "model": "kosour",
+      "material": "material_wood_common",
       "position": {
         "x": 0,
-        "y": -2.171,
-        "z": 0
+        "y": 0,
+        "z": 0.035
       },
       "rotation": {
         "x": 0,
@@ -46,17 +41,22 @@
     },
     {
       "name": "balk_corner_rt",
-      "model": "balk_corner",
-      "material": "material_wood",
+      "model": "kosour",
+      "material": "material_wood_common",
       "position": {
         "x": 0,
-        "y": -2.171,
-        "z": 0
+        "y": 0,
+        "z": 0.035
       },
       "rotation": {
         "x": 0,
         "y": -90,
         "z": 0
+      },
+      "scale": {
+        "x": -1,
+        "y": 1,
+        "z": 1
       }
     }
   ],
