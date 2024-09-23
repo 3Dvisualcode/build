@@ -1,0 +1,125 @@
+{
+  "textures": [
+    {
+      "name": "wood_texture_base",
+      "url": "./assets/textures/wood/texture_wood.jpg"
+    }
+  ],
+  "models": [
+    {
+      "name": "garage_door_frame",
+      "url": "./assets/models/common/garage_door/garage_door_frame_2200.obj"
+    },
+    {
+      "name": "garage_door_door",
+      "url": "./assets/models/common/garage_door/garage_door.obj"
+    }
+  ],
+  "materials": [
+    {
+      "name": "material_wood_common",
+      "type": "standart",
+      "color": "#ffffff",
+      "map": "wood_texture_base",
+      "emissive": "#000000",
+      "specular": 0.5,
+      "roughness": 0.5,
+      "metalness": 0,
+      "transparent": false
+    },
+    {
+      "name": "garage_door_door",
+      "type": "standart",
+      "color": "#323336",
+      "emissive": "#000000",
+      "metalness": 0,
+      "roughness": 0.25,
+      "specular": 0.5,
+      "transparent": false
+    }
+  ],
+  "meshes": [
+    {
+      "name": "garage_door_box",
+      "type": "box",
+      "size": {
+        "x": 2.56,
+        "y": 2.3,
+        "z": 1
+      },
+      "position": {
+        "x": 0,
+        "y": 1.05,
+        "z": 0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "name": "garage_door_frame",
+      "model": "garage_door_frame",
+      "material": "material_wood_common",
+      "rotation": {
+        "x": 0,
+        "y": -90,
+        "z": 0
+      },
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": -0.05
+      }
+    },
+    {
+      "name": "garage_door_door",
+      "model": "garage_door_door",
+      "material": "garage_door_door",
+      "rotation": {
+        "x": 0,
+        "y": -90,
+        "z": 0
+      },
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": -0.05
+      }
+    }
+  ],
+  "type": "garage_door",
+  "parts": [
+    {
+      "object": "garage_door_frame",
+      "relative": {
+        "x": {
+          "a": 0.5,
+          "b": 0
+        }
+      }
+    },
+    {
+      "object": "garage_door_door",
+      "relative": {
+        "x": {
+          "a": 0.5,
+          "b": 0
+        }
+      }
+    }
+  ],
+  "cuts": [
+    {
+      "object": "garage_door_box",
+      "relative": {
+        "x": {
+          "a": 0.5,
+          "b": 0
+        },
+        "y": {
+          "a": 0,
+          "b": 0
+        }
+      }
+    }
+  ]
+}

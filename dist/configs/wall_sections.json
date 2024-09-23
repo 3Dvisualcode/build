@@ -523,12 +523,229 @@
     ]
   },
   {
-    "type": "brick_wood",
-    "name": "Brick with wood",
+    "type": "bricks_wood_fill",
+    "name": "Bricks with wood fill wall",
     "size": {
       "min": 0,
       "max": 999999999
     },
-    "frame": []
+    "frame": [
+      {
+        "type": "bricks",
+        "size": {
+          "min": 0,
+          "max": 999999999
+        }
+      }
+    ]
+  },
+  {
+    "type": "bricks_wood_fill2",
+    "name": "Bricks with double wood fill wall",
+    "size": {
+      "min": 0,
+      "max": 999999999
+    },
+    "frame": [
+      {
+        "type": "bricks",
+        "size": {
+          "min": 0,
+          "max": 999999999
+        }
+      }
+    ]
+  },
+  {
+    "type": "bricks_wood_fill_window",
+    "name": "Bricks with wood fill wall with window",
+    "size": {
+      "min": 0,
+      "max": 999999999
+    },
+    "frame": [
+      {
+        "type": "window",
+        "size": {
+          "min": 0,
+          "max": 999999999
+        }
+      },
+      {
+        "type": "bricks",
+        "size": {
+          "min": 0,
+          "max": 999999999
+        }
+      }
+    ]
+  },
+  {
+    "type": "bricks_wood_fill2_window",
+    "name": "Bricks with double wood fill wall with window",
+    "size": {
+      "min": 0,
+      "max": 999999999
+    },
+    "frame": [
+      {
+        "type": "window",
+        "size": {
+          "min": 0,
+          "max": 999999999
+        }
+      },
+      {
+        "type": "bricks",
+        "size": {
+          "min": 0,
+          "max": 999999999
+        }
+      }
+    ]
+  },
+  {
+    "type": "wood_fill_window2",
+    "name": "",
+    "size": {
+      "min": 0,
+      "max": 999999999
+    },
+    "frame": [
+      {
+        "type": "window_left",
+        "size": {
+          "min": 0,
+          "max": 999999999
+        }
+      },
+      {
+        "type": "window_right",
+        "size": {
+          "min": 0,
+          "max": 999999999
+        }
+      }
+    ]
+  },
+  {
+    "type": "wood_fill2_window2",
+    "name": "",
+    "size": {
+      "min": 0,
+      "max": 999999999
+    },
+    "frame": [
+      {
+        "type": "window_left",
+        "size": {
+          "min": 0,
+          "max": 999999999
+        }
+      },
+      {
+        "type": "window_right",
+        "size": {
+          "min": 0,
+          "max": 999999999
+        }
+      }
+    ]
+  },
+  {
+    "type": "bricks_wood_fill_window2",
+    "name": "",
+    "size": {
+      "min": 0,
+      "max": 999999999
+    },
+    "frame": [
+      {
+        "type": "bricks",
+        "size": {
+          "min": 0,
+          "max": 999999999
+        }
+      },
+      {
+        "type": "window_left",
+        "size": {
+          "min": 0,
+          "max": 999999999
+        }
+      },
+      {
+        "type": "window_right",
+        "size": {
+          "min": 0,
+          "max": 999999999
+        }
+      }
+    ]
+  },
+  {
+    "type": "bricks_wood_fill2_window2",
+    "name": "",
+    "size": {
+      "min": 0,
+      "max": 999999999
+    },
+    "frame": [
+      {
+        "type": "bricks",
+        "size": {
+          "min": 0,
+          "max": 999999999
+        }
+      },
+      {
+        "type": "window_left",
+        "size": {
+          "min": 0,
+          "max": 999999999
+        }
+      },
+      {
+        "type": "window_right",
+        "size": {
+          "min": 0,
+          "max": 999999999
+        }
+      }
+    ]
+  },
+  {
+    "type": "wood_fill_garage_door",
+    "name": "",
+    "size": {
+      "min": 0,
+      "max": 999999999
+    },
+    "frame": [
+      {
+        "type": "garage_door",
+        "size": {
+          "min": 0,
+          "max": 999999999
+        }
+      }
+    ]
+  },
+  {
+    "type": "wood_fill2_garage_door",
+    "name": "",
+    "size": {
+      "min": 0,
+      "max": 999999999
+    },
+    "frame": [
+      {
+        "type": "garage_door",
+        "size": {
+          "min": 0,
+          "max": 999999999
+        }
+      }
+    ]
   }
 ]

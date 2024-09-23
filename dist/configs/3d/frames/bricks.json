@@ -1,0 +1,79 @@
+{
+  "type": "bricks",
+  "textures": [
+    {
+      "name": "bricks_base",
+      "url": "./assets/textures/common/bricks_baseColor_dark.png"
+    },
+    {
+      "name": "bricks_normal",
+      "url": "./assets/textures/common/bricks_normal.png"
+    },
+    {
+      "name": "bricks_roughness",
+      "url": "./assets/textures/common/bricks_roughness.png"
+    }
+  ],
+  "models": [
+    {
+      "name": "brick_wall_1m",
+      "url": "./assets/models/common/brick_wall_1m.obj"
+    }
+  ],
+  "materials": [
+    {
+      "name": "bricks_material",
+      "type": "standart",
+      "map": "bricks_base",
+      "normalMap": "bricks_normal",
+      "roughnessMap": "bricks_roughness"
+    }
+  ],
+  "objects": [
+    {
+      "name": "bricks_wall",
+      "model": "brick_wall_1m",
+      "material": "bricks_material"
+    }
+  ],
+  "meshes": [
+    {
+      "name": "bricks_wall_box",
+      "type": "box",
+      "material": "bricks_material",
+      "size": {
+        "x": 1.1,
+        "y": 0.5,
+        "z": 1
+      },
+      "position": {
+        "x": 0.5,
+        "y": 0.15,
+        "z": 0
+      }
+    }
+  ],
+  "parts": [
+    {
+      "object": "bricks_wall",
+      "scaling": true,
+      "initial": {
+        "x": 1000,
+        "y": 0,
+        "z": 0
+      },
+      "materialScaling": true
+    }
+  ],
+  "cuts": [
+    {
+      "object": "bricks_wall_box",
+      "scaling": true,
+      "initial": {
+        "x": 1000,
+        "y": 0,
+        "z": 0
+      }
+    }
+  ]
+}

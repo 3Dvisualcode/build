@@ -72,6 +72,15 @@
     "./configs/3d/sections/wood_fill2_window_door_left.json",
     "./configs/3d/sections/wood_fill2_window_door_right.json",
     "./configs/3d/sections/zhaluzi.json",
-    "./configs/3d/sections/brick_wood.json"
+    "./configs/3d/sections/bricks_wood_fill.json",
+    "./configs/3d/sections/bricks_wood_fill2.json",
+    "./configs/3d/sections/bricks_wood_fill_window.json",
+    "./configs/3d/sections/bricks_wood_fill2_window.json",
+    "./configs/3d/sections/wood_fill_window2.json",
+    "./configs/3d/sections/wood_fill2_window2.json",
+    "./configs/3d/sections/bricks_wood_fill_window2.json",
+    "./configs/3d/sections/bricks_wood_fill2_window2.json",
+    "./configs/3d/sections/wood_fill_garage_door.json",
+    "./configs/3d/sections/wood_fill2_garage_door.json"
   ]
 }
