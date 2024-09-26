@@ -1,2 +1,13 @@
-# Blender 4.0.2 MTL File: 'models_by_script2.blend'
+# Blender 4.0.2 MTL File: 'models_by_script3.blend'
 # www.blender.org
+
+newmtl wood
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd E:/Work/RostyslavFedchuk/2024-08-21_Three_JS_Soetendaal/Textures/wood_texture.jpg
+map_Bump -bm 1.000000 E:/Work/RostyslavFedchuk/2024-08-21_Three_JS_Soetendaal/Textures/texture_wood_normal.jpg
