@@ -1,0 +1,20 @@
+{
+  "models": [
+    {
+      "name": "profile1",
+      "url": "./assets/models/profile1.obj"
+    },
+    {
+      "name": "baseBlack",
+      "url": "./assets/textures/roof_texture/Black_BaseColor.png"
+    },
+    {
+      "name": "baseBlackNormal",
+      "url": "./assets/textures/roof_texture/roof_normalMap.jpg"
+    },
+    {
+      "name": "wood",
+      "url": "./assets/textures/wood/texture_wood_90.jpg"
+    }
+  ]
+}
