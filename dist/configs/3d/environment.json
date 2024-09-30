@@ -5,16 +5,16 @@
       "type": "hemisphere",
       "color": "0xffffff",
       "ground": "0xffffff",
-      "intencity": 1.5
+      "intencity": 0.7
     },
     {
       "name": "light_1",
       "type": "point",
       "color": "0xFFFFFF",
-      "intencity": 20,
+      "intencity": 100,
       "position": {
         "x": 6.5,
-        "y": 3,
+        "y": 6,
         "z": 9.5
       }
     },
@@ -22,10 +22,10 @@
       "name": "light_2",
       "type": "point",
       "color": "0xFFFFFF",
-      "intencity": 20,
+      "intencity": 100,
       "position": {
         "x": -6.5,
-        "y": 3,
+        "y": 6,
         "z": 9.5
       }
     },
@@ -33,10 +33,10 @@
       "name": "light_3",
       "type": "point",
       "color": "0xFFFFFF",
-      "intencity": 70,
+      "intencity": 200,
       "position": {
         "x": -6.5,
-        "y": 3,
+        "y": 8,
         "z": -9.5
       }
     },
@@ -44,32 +44,10 @@
       "name": "light_4",
       "type": "point",
       "color": "0xFFFFFF",
-      "intencity": 70,
+      "intencity": 200,
       "position": {
         "x": 6.5,
-        "y": 3,
-        "z": -9.5
-      }
-    },
-    {
-      "name": "light_5",
-      "type": "spot",
-      "color": "0xFFFFFF",
-      "intencity": 100,
-      "position": {
-        "x": 6.5,
-        "y": 3,
-        "z": -9.5
-      }
-    },
-    {
-      "name": "light_5",
-      "type": "spot",
-      "color": "0xFFFFFF",
-      "intencity": 100,
-      "position": {
-        "x": 6.5,
-        "y": 3,
+        "y": 8,
         "z": -9.5
       }
     }

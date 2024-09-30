@@ -3,7 +3,9 @@
     {
       "name": "profile1",
       "url": "./assets/models/profile1.obj"
-    },
+    }
+  ],
+  "textures": [
     {
       "name": "baseBlack",
       "url": "./assets/textures/roof_texture/Black_BaseColor.png"
