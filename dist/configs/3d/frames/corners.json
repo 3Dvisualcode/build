@@ -1,32 +1,54 @@
 {
   "textures": [
     {
-      "name": "wood_texture_base",
-      "url": "./assets/textures/common/wood_texture_base.jpg"
+      "name": "texture_wood",
+      "url": "./assets/textures/wood/texture_wood.jpg"
+    },
+    {
+      "name": "texture_wood_normal",
+      "url": "./assets/textures/wood/texture_wood_normal.jpg"
+    },
+    {
+      "name": "texture_wood_black",
+      "url": "./assets/textures/wood/texture_wood_black.jpg"
     }
   ],
   "models": [
     {
-      "name": "kosour",
-      "url": "./assets/models/kosour.obj"
+      "name": "balk_corner",
+      "url": "./assets/models/common/balk_corner.obj"
     }
   ],
   "materials": [
     {
       "name": "material_wood_common",
-      "type": "standart",
+      "type": "phong",
       "color": "#ffffff",
-      "map": "wood_texture_base",
+      "map": "texture_wood",
+      "normalMap": "texture_wood_normal",
       "emissive": "#000000",
       "roughness": 0.5,
       "metalness": 0,
-      "transparent": false
+      "transparent": false,
+      "shininess": 50
+    },
+    {
+      "name": "material_wood_dark",
+      "type": "phong",
+      "color": "#ffffff",
+      "map": "texture_wood_black",
+      "normalMap": "texture_wood_normal",
+      "emissive": "#000000",
+      "roughness": 0.5,
+      "metalness": 0,
+      "transparent": false,
+      "shininess": 50
     }
   ],
   "objects": [
     {
       "name": "balk_corner_lt",
-      "model": "kosour",
+      "model": "balk_corner",
       "material": "material_wood_common",
       "position": {
         "x": 0,
@@ -41,7 +63,7 @@
     },
     {
       "name": "balk_corner_rt",
-      "model": "kosour",
+      "model": "balk_corner",
       "material": "material_wood_common",
       "position": {
         "x": 0,
@@ -83,6 +105,18 @@
           "b": 0
         }
       }
+    }
+  ],
+  "customizations": [
+    {
+      "name": "dark",
+      "object": "balk_corner_lt",
+      "material": "material_wood_dark"
+    },
+    {
+      "name": "dark",
+      "object": "balk_corner_rt",
+      "material": "material_wood_dark"
     }
   ]
 }

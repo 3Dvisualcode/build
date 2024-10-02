@@ -15,6 +15,9 @@
           "max": 999999999
         }
       }
+    ],
+    "customization": [
+      "dark"
     ]
   },
   {
@@ -34,7 +37,8 @@
           "max": 999999999
         }
       }
-    ]
+    ],
+    "customization": []
   },
   {
     "type": "wood_fill2",
@@ -53,7 +57,8 @@
           "max": 999999999
         }
       }
-    ]
+    ],
+    "customization": []
   },
   {
     "type": "beam",
@@ -63,7 +68,8 @@
       "min": 150,
       "max": 150
     },
-    "frame": []
+    "frame": [],
+    "customization": []
   },
   {
     "type": "zhaluzi",
@@ -73,7 +79,8 @@
       "min": 1000,
       "max": 1000
     },
-    "frame": []
+    "frame": [],
+    "customization": []
   },
   {
     "type": "glass_1m",
@@ -100,7 +107,8 @@
           "max": 999999999
         }
       }
-    ]
+    ],
+    "customization": []
   },
   {
     "type": "glass_2m",
@@ -127,7 +135,8 @@
           "max": 999999999
         }
       }
-    ]
+    ],
+    "customization": []
   },
   {
     "type": "glass_door_2m",
@@ -154,7 +163,8 @@
           "max": 999999999
         }
       }
-    ]
+    ],
+    "customization": []
   },
   {
     "type": "glass_door_3m",
@@ -181,7 +191,8 @@
           "max": 999999999
         }
       }
-    ]
+    ],
+    "customization": []
   },
   {
     "type": "glass_door_4m",
@@ -208,7 +219,8 @@
           "max": 999999999
         }
       }
-    ]
+    ],
+    "customization": []
   },
   {
     "type": "wood_fill_window",
@@ -234,7 +246,8 @@
           "max": 999999999
         }
       }
-    ]
+    ],
+    "customization": []
   },
   {
     "type": "wood_fill2_window",
@@ -260,7 +273,8 @@
           "max": 999999999
         }
       }
-    ]
+    ],
+    "customization": []
   },
   {
     "type": "wood_fill_door_left",
@@ -286,7 +300,8 @@
           "max": 999999999
         }
       }
-    ]
+    ],
+    "customization": []
   },
   {
     "type": "wood_fill2_door_left",
@@ -312,7 +327,8 @@
           "max": 999999999
         }
       }
-    ]
+    ],
+    "customization": []
   },
   {
     "type": "wood_fill_door_right",
@@ -338,7 +354,8 @@
           "max": 999999999
         }
       }
-    ]
+    ],
+    "customization": []
   },
   {
     "type": "wood_fill2_door_right",
@@ -364,7 +381,8 @@
           "max": 999999999
         }
       }
-    ]
+    ],
+    "customization": []
   },
   {
     "type": "wood_fill_window_door_left",
@@ -390,7 +408,8 @@
           "max": 999999999
         }
       }
-    ]
+    ],
+    "customization": []
   },
   {
     "type": "wood_fill2_window_door_left",
@@ -416,7 +435,8 @@
           "max": 999999999
         }
       }
-    ]
+    ],
+    "customization": []
   },
   {
     "type": "wood_fill_window_door_right",
@@ -442,7 +462,8 @@
           "max": 999999999
         }
       }
-    ]
+    ],
+    "customization": []
   },
   {
     "type": "wood_fill2_window_door_right",
@@ -468,7 +489,8 @@
           "max": 999999999
         }
       }
-    ]
+    ],
+    "customization": []
   },
   {
     "type": "wood_fill_double_doors",
@@ -494,7 +516,8 @@
           "max": 999999999
         }
       }
-    ]
+    ],
+    "customization": []
   },
   {
     "type": "wood_fill2_double_doors",
@@ -520,7 +543,8 @@
           "max": 999999999
         }
       }
-    ]
+    ],
+    "customization": []
   },
   {
     "type": "bricks_wood_fill",
@@ -537,7 +561,8 @@
           "max": 999999999
         }
       }
-    ]
+    ],
+    "customization": []
   },
   {
     "type": "bricks_wood_fill2",
@@ -554,7 +579,8 @@
           "max": 999999999
         }
       }
-    ]
+    ],
+    "customization": []
   },
   {
     "type": "bricks_wood_fill_window",
@@ -578,7 +604,8 @@
           "max": 999999999
         }
       }
-    ]
+    ],
+    "customization": []
   },
   {
     "type": "bricks_wood_fill2_window",
@@ -602,7 +629,8 @@
           "max": 999999999
         }
       }
-    ]
+    ],
+    "customization": []
   },
   {
     "type": "wood_fill_window2",
@@ -626,7 +654,8 @@
           "max": 999999999
         }
       }
-    ]
+    ],
+    "customization": []
   },
   {
     "type": "wood_fill2_window2",
@@ -650,7 +679,8 @@
           "max": 999999999
         }
       }
-    ]
+    ],
+    "customization": []
   },
   {
     "type": "bricks_wood_fill_window2",
@@ -681,7 +711,8 @@
           "max": 999999999
         }
       }
-    ]
+    ],
+    "customization": []
   },
   {
     "type": "bricks_wood_fill2_window2",
@@ -712,7 +743,8 @@
           "max": 999999999
         }
       }
-    ]
+    ],
+    "customization": []
   },
   {
     "type": "wood_fill_garage_door",
@@ -729,7 +761,8 @@
           "max": 999999999
         }
       }
-    ]
+    ],
+    "customization": []
   },
   {
     "type": "wood_fill2_garage_door",
@@ -746,6 +779,7 @@
           "max": 999999999
         }
       }
-    ]
+    ],
+    "customization": []
   }
 ]
