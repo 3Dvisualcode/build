@@ -16,6 +16,10 @@
     },
     {
       "name": "wood",
+      "url": "./assets/textures/wood/texture_wood.jpg"
+    },
+    {
+      "name": "wood90",
       "url": "./assets/textures/wood/texture_wood_90.jpg"
     }
   ]
