@@ -15,8 +15,12 @@
   ],
   "models": [
     {
-      "name": "balk_corner",
-      "url": "./assets/models/common/balk_corner.obj"
+      "name": "door_hingles",
+      "url": "./assets/models/doors/door_hingles.obj"
+    },
+    {
+      "name": "door_wood",
+      "url": "./assets/models/doors/door_wood.obj"
     }
   ],
   "materials": [
@@ -41,65 +45,94 @@
       "normalMap": "texture_wood_normal",
       "metalness": 0,
       "roughness": 0.3
+    },
+    {
+      "name": "material_metal_stainless",
+      "type": "standart",
+      "color": "#a7becd",
+      "metalness": 1,
+      "roughness": 0.35
+    }
+  ],
+  "meshes": [
+    {
+      "name": "door_box",
+      "type": "box",
+      "size": {
+        "x": 0.95,
+        "y": 2.3,
+        "z": 1
+      },
+      "position": {
+        "x": 0,
+        "y": 1.05,
+        "z": 0
+      }
     }
   ],
   "objects": [
     {
-      "name": "balk_corner_lt",
-      "model": "balk_corner",
+      "name": "door_wood",
+      "model": "door_wood",
       "material": "material_wood",
-      "position": {
-        "x": 0,
-        "y": 0,
-        "z": 0.035
-      },
-      "rotation": {
-        "x": 0,
-        "y": 90,
-        "z": 0
-      }
-    },
-    {
-      "name": "balk_corner_rt",
-      "model": "balk_corner",
-      "material": "material_wood",
-      "position": {
-        "x": 0,
-        "y": 0,
-        "z": 0.035
-      },
-      "rotation": {
-        "x": 0,
-        "y": -90,
-        "z": 0
-      },
       "scale": {
         "x": -1,
         "y": 1,
         "z": 1
+      },
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0.15
+      }
+    },
+    {
+      "name": "door_hingles",
+      "model": "door_hingles",
+      "material": "material_metal_stainless",
+      "scale": {
+        "x": -1,
+        "y": 1,
+        "z": 1
+      },
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0.15
       }
     }
   ],
-  "type": "corners",
+  "type": "right_wood_door_right",
   "parts": [
     {
-      "object": "balk_corner_lt",
+      "object": "door_wood",
       "relative": {
-        "y": {
-          "a": 1,
-          "b": 0
+        "x": {
+          "a": 0.66666,
+          "b": 100
         }
       }
     },
     {
-      "object": "balk_corner_rt",
+      "object": "door_hingles",
       "relative": {
         "x": {
-          "a": 1,
-          "b": 0
+          "a": 0.66666,
+          "b": 100
+        }
+      }
+    }
+  ],
+  "cuts": [
+    {
+      "object": "door_box",
+      "relative": {
+        "x": {
+          "a": 0.66666,
+          "b": 100
         },
         "y": {
-          "a": 1,
+          "a": 0,
           "b": 0
         }
       }
@@ -107,23 +140,13 @@
   ],
   "customizations": [
     {
-      "name": "dark",
-      "object": "balk_corner_lt",
+      "name": "dark_door",
+      "object": "door_wood",
       "material": "material_wood_black"
     },
     {
-      "name": "dark",
-      "object": "balk_corner_rt",
-      "material": "material_wood_black"
-    },
-    {
-      "name": "painted",
-      "object": "balk_corner_lt",
-      "material": "material_wood_painted"
-    },
-    {
-      "name": "painted",
-      "object": "balk_corner_rt",
+      "name": "painted_door",
+      "object": "door_wood",
       "material": "material_wood_painted"
     }
   ]

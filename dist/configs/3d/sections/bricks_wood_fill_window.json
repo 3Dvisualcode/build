@@ -31,7 +31,7 @@
   ],
   "frames": [
     "./configs/3d/frames/bricks.json",
-    "./configs/3d/frames/wall_window.json"
+    "./configs/3d/frames/window_800x1200.json"
   ],
   "sections": [
     {

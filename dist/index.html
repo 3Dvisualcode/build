@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Three.js with TypeScript and Webpack</title>
-  <script defer src="./bundle.js"></script></head>
+  <script defer src="bundle.js"></script></head>
   <body style="gap: 10px; display: flex; flex-direction: column">
     <div style="display: flex; flex-direction: row; gap: 10px">
       <div>
@@ -250,6 +250,8 @@
           <option value="bricks_wood_fill2_window2">Brick wood (2) with window (2)</option>
           <option value="wood_fill_garage_door">Wood with garage door</option>
           <option value="wood_fill2_garage_door">Wood (2) with garage door</option>
+          <option value="bricks_wood_fill_garage_door">Bricks Wood with garage door</option>
+          <option value="bricks_wood_fill2_garage_door">Bricks Wood (2) with garage door</option>
         </select>
       </div>
       <button id="switchWallType" >Switch type</button>
@@ -266,6 +268,19 @@
       </div>
       <button id="addSection">Add section</button>
       <button id="removeSection">Remove first section</button>
+    </div>
+    <div style="display: flex; flex-direction: row; gap: 10px">
+        <div>
+            <label for="customDark">Dark</label>
+            <input type="checkbox" id="customDark" />
+            <label for="customDarkInner">Dark Inner</label>
+            <input type="checkbox" id="customDarkInner" />
+            <label for="customDarkWindow">Dark Window</label>
+            <input type="checkbox" id="customDarkWindow" />
+            <label for="customDarkDoor">Dark Door</label>
+            <input type="checkbox" id="customDarkDoor" />
+        </div>
+        <button id="customSetButton" >Set</button>
     </div>
   </body>
 </html>
