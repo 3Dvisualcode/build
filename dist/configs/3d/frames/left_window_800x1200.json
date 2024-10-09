@@ -54,7 +54,7 @@
       "name": "material_glass",
       "type": "standart",
       "color": "#5873cd",
-      "metalness": 0,
+      "metalness": 1,
       "roughness": 0.04545454680919647,
       "opacity": 0.275,
       "transparent": true
@@ -80,32 +80,17 @@
     {
       "name": "window_cadre",
       "model": "window_800x1200_cadre",
-      "material": "material_wood",
-      "position": {
-        "x": 0,
-        "y": 0,
-        "z": 0.075
-      }
+      "material": "material_wood"
     },
     {
       "name": "window_frame",
       "model": "window_800x1200_frame",
-      "material": "material_wood",
-      "position": {
-        "x": 0,
-        "y": 0,
-        "z": 0.075
-      }
+      "material": "material_wood"
     },
     {
       "name": "window_glass",
       "model": "window_800x1200_glass",
-      "material": "material_glass",
-      "position": {
-        "x": 0,
-        "y": 0,
-        "z": 0.075
-      }
+      "material": "material_glass"
     }
   ],
   "type": "left_window_800x1200",
@@ -115,11 +100,15 @@
       "relative": {
         "x": {
           "a": 0.33333,
-          "b": -133
+          "b": -193.3
         },
         "y": {
           "a": 0,
-          "b": 1000
+          "b": 960
+        },
+        "z": {
+          "a": 0.5,
+          "b": 0
         }
       }
     },
@@ -128,11 +117,15 @@
       "relative": {
         "x": {
           "a": 0.33333,
-          "b": -133
+          "b": -193.3
         },
         "y": {
           "a": 0,
-          "b": 1000
+          "b": 960
+        },
+        "z": {
+          "a": 0.5,
+          "b": 0
         }
       }
     },
@@ -141,11 +134,15 @@
       "relative": {
         "x": {
           "a": 0.33333,
-          "b": -133
+          "b": -193.3
         },
         "y": {
           "a": 0,
-          "b": 1000
+          "b": 960
+        },
+        "z": {
+          "a": 0.5,
+          "b": 0
         }
       }
     }
@@ -156,11 +153,11 @@
       "relative": {
         "x": {
           "a": 0.33333,
-          "b": -133
+          "b": -193.3
         },
         "y": {
           "a": 0,
-          "b": 1000
+          "b": 960
         }
       }
     }

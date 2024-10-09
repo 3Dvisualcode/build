@@ -15,12 +15,8 @@
   ],
   "models": [
     {
-      "name": "door_hingles",
-      "url": "./assets/models/doors/door_hingles.obj"
-    },
-    {
-      "name": "door_wood",
-      "url": "./assets/models/doors/door_wood.obj"
+      "name": "double_door_wood_cadre_2200",
+      "url": "./assets/models/double_door/double_door_wood_cadre_2200.obj"
     }
   ],
   "materials": [
@@ -52,21 +48,14 @@
       "color": "#a7becd",
       "metalness": 1,
       "roughness": 0.35
-    },
-    {
-      "name": "material_white",
-      "type": "standart",
-      "color": "#cdcdcd",
-      "metalness": 0,
-      "roughness": 0.25
     }
   ],
   "meshes": [
     {
-      "name": "door_box",
+      "name": "double_door_cadre_2200_box",
       "type": "box",
       "size": {
-        "x": 0.95,
+        "x": 2.54,
         "y": 2.3,
         "z": 1
       },
@@ -79,33 +68,15 @@
   ],
   "objects": [
     {
-      "name": "door_wood",
-      "model": "door_wood",
+      "name": "double_door_wood_cadre_2200",
+      "model": "double_door_wood_cadre_2200",
       "material": "material_wood"
-    },
-    {
-      "name": "door_hingles",
-      "model": "door_hingles",
-      "material": "material_metal_stainless"
     }
   ],
-  "type": "wood_door_left",
+  "type": "wood_double_door_cadre_2200",
   "parts": [
     {
-      "object": "door_wood",
-      "relative": {
-        "x": {
-          "a": 0.5,
-          "b": 0
-        },
-        "z": {
-          "a": 0.5,
-          "b": 0
-        }
-      }
-    },
-    {
-      "object": "door_hingles",
+      "object": "double_door_wood_cadre_2200",
       "relative": {
         "x": {
           "a": 0.5,
@@ -120,7 +91,7 @@
   ],
   "cuts": [
     {
-      "object": "door_box",
+      "object": "double_door_cadre_2200_box",
       "relative": {
         "x": {
           "a": 0.5,
@@ -136,18 +107,13 @@
   "customizations": [
     {
       "name": "dark_door",
-      "object": "door_wood",
+      "object": "double_door_wood_cadre_2200",
       "material": "material_wood_black"
     },
     {
       "name": "painted_door",
-      "object": "door_wood",
+      "object": "double_door_wood_cadre_2200",
       "material": "material_wood_painted"
-    },
-    {
-      "name": "white_door",
-      "object": "door_wood",
-      "material": "material_white"
     }
   ]
 }

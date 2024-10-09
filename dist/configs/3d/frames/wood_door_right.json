@@ -52,6 +52,13 @@
       "color": "#a7becd",
       "metalness": 1,
       "roughness": 0.35
+    },
+    {
+      "name": "material_white",
+      "type": "standart",
+      "color": "#cdcdcd",
+      "metalness": 0,
+      "roughness": 0.25
     }
   ],
   "meshes": [
@@ -79,11 +86,6 @@
         "x": -1,
         "y": 1,
         "z": 1
-      },
-      "position": {
-        "x": 0,
-        "y": 0,
-        "z": 0.15
       }
     },
     {
@@ -94,11 +96,6 @@
         "x": -1,
         "y": 1,
         "z": 1
-      },
-      "position": {
-        "x": 0,
-        "y": 0,
-        "z": 0.15
       }
     }
   ],
@@ -110,6 +107,10 @@
         "x": {
           "a": 0.5,
           "b": 0
+        },
+        "z": {
+          "a": 0.5,
+          "b": 0
         }
       }
     },
@@ -117,6 +118,10 @@
       "object": "door_hingles",
       "relative": {
         "x": {
+          "a": 0.5,
+          "b": 0
+        },
+        "z": {
           "a": 0.5,
           "b": 0
         }
@@ -148,6 +153,11 @@
       "name": "painted_door",
       "object": "door_wood",
       "material": "material_wood_painted"
+    },
+    {
+      "name": "white_door",
+      "object": "door_wood",
+      "material": "material_white"
     }
   ]
 }

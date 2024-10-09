@@ -74,22 +74,12 @@
     {
       "name": "door_wood",
       "model": "door_wood",
-      "material": "material_wood",
-      "position": {
-        "x": 0,
-        "y": 0,
-        "z": 0.15
-      }
+      "material": "material_wood"
     },
     {
       "name": "door_hingles",
       "model": "door_hingles",
-      "material": "material_metal_stainless",
-      "position": {
-        "x": 0,
-        "y": 0,
-        "z": 0.15
-      }
+      "material": "material_metal_stainless"
     }
   ],
   "type": "left_wood_door_left",
@@ -99,7 +89,11 @@
       "relative": {
         "x": {
           "a": 0.33333,
-          "b": -200
+          "b": -113.3
+        },
+        "z": {
+          "a": 0.5,
+          "b": 0
         }
       }
     },
@@ -108,7 +102,11 @@
       "relative": {
         "x": {
           "a": 0.33333,
-          "b": -200
+          "b": -113.3
+        },
+        "z": {
+          "a": 0.5,
+          "b": 0
         }
       }
     }
@@ -119,7 +117,7 @@
       "relative": {
         "x": {
           "a": 0.33333,
-          "b": -200
+          "b": -113.3
         },
         "y": {
           "a": 0,

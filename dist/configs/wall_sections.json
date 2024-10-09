@@ -568,7 +568,14 @@
     },
     "frame": [
       {
-        "type": "double_doors",
+        "type": "wood_double_door_cadre_2200",
+        "size": {
+          "min": 0,
+          "max": 999999999
+        }
+      },
+      {
+        "type": "wood_double_door",
         "size": {
           "min": 0,
           "max": 999999999
@@ -598,7 +605,14 @@
     },
     "frame": [
       {
-        "type": "double_doors",
+        "type": "wood_double_door_cadre_2200",
+        "size": {
+          "min": 0,
+          "max": 999999999
+        }
+      },
+      {
+        "type": "wood_double_door",
         "size": {
           "min": 0,
           "max": 999999999

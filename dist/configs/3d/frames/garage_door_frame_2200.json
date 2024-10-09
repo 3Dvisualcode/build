@@ -1,5 +1,4 @@
 {
-  "type": "wood_fill2_garage_door",
   "textures": [
     {
       "name": "texture_wood",
@@ -16,8 +15,8 @@
   ],
   "models": [
     {
-      "name": "wall_big",
-      "url": "./assets/models/wall/wall_big.obj"
+      "name": "garage_door_frame_2200",
+      "url": "./assets/models/garage_door/garage_door_frame_2200.obj"
     }
   ],
   "materials": [
@@ -44,65 +43,75 @@
       "roughness": 0.3
     }
   ],
-  "objects": [
+  "meshes": [
     {
-      "name": "wood_wall",
-      "model": "wall_big",
-      "material": "material_wood"
-    },
-    {
-      "name": "wood_wall_inner",
-      "model": "wall_big",
-      "material": "material_wood",
-      "scale": {
-        "x": 1,
-        "y": 1,
-        "z": -1
+      "name": "garage_door_frame_2200_box",
+      "type": "box",
+      "size": {
+        "x": 2.54,
+        "y": 2.3,
+        "z": 1
+      },
+      "position": {
+        "x": 0,
+        "y": 1.05,
+        "z": 0
       }
     }
   ],
-  "frames": [
-    "./configs/3d/frames/garage_door_frame_2200.json",
-    "./configs/3d/frames/garage_door.json"
+  "objects": [
+    {
+      "name": "garage_door_frame_2200",
+      "model": "garage_door_frame_2200",
+      "material": "material_wood"
+    }
   ],
-  "sections": [
+  "type": "garage_door_frame_2200",
+  "parts": [
     {
-      "object": "wood_wall",
-      "initial": {
-        "x": 2775,
-        "y": 2200,
-        "z": 0
+      "object": "garage_door_frame_2200",
+      "relative": {
+        "x": {
+          "a": 0.5,
+          "b": 0
+        },
+        "z": {
+          "a": 0.5,
+          "b": 0
+        }
       }
-    },
+    }
+  ],
+  "cuts": [
     {
-      "object": "wood_wall_inner",
-      "initial": {
-        "x": 2775,
-        "y": 2200,
-        "z": 0
+      "object": "garage_door_frame_2200_box",
+      "relative": {
+        "x": {
+          "a": 0.5,
+          "b": 0
+        },
+        "y": {
+          "a": 0,
+          "b": 0
+        }
       }
     }
   ],
   "customizations": [
     {
-      "name": "dark",
-      "object": "wood_wall",
+      "name": "dark_door",
+      "object": "garage_door_frame_2200",
       "material": "material_wood_black"
     },
     {
-      "name": "dark",
-      "object": "wood_wall_inner",
-      "material": "material_wood_black"
-    },
-    {
-      "name": "painted",
-      "object": "wood_wall",
+      "name": "painted_door",
+      "object": "garage_door_frame_2200",
       "material": "material_wood_painted"
     },
     {
-      "name": "painted",
-      "object": "wood_wall_inner",
-      "material": "material_wood_painted"
+      "name": "white_door",
+      "object": "garage_door_frame_2200",
+      "material": "material_white"
     }
   ]
 }

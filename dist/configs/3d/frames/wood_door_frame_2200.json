@@ -70,12 +70,7 @@
     {
       "name": "door_wood_frame_2200",
       "model": "door_wood_frame_2200",
-      "material": "material_wood",
-      "position": {
-        "x": 0,
-        "y": 0,
-        "z": 0.1
-      }
+      "material": "material_wood"
     }
   ],
   "type": "wood_door_frame_2200",
@@ -84,6 +79,10 @@
       "object": "door_wood_frame_2200",
       "relative": {
         "x": {
+          "a": 0.5,
+          "b": 0
+        },
+        "z": {
           "a": 0.5,
           "b": 0
         }
