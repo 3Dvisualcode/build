@@ -15,8 +15,8 @@
   ],
   "models": [
     {
-      "name": "garage_door",
-      "url": "./assets/models/common/garage_door/garage_door.obj"
+      "name": "garage_door_frame_2200",
+      "url": "./assets/models/common/garage_door/garage_door_frame_2200.obj"
     }
   ],
   "materials": [
@@ -45,10 +45,10 @@
   ],
   "meshes": [
     {
-      "name": "garage_door_box",
+      "name": "garage_door_frame_2200_box",
       "type": "box",
       "size": {
-        "x": 2.5,
+        "x": 2.54,
         "y": 2.3,
         "z": 1
       },
@@ -61,15 +61,15 @@
   ],
   "objects": [
     {
-      "name": "garage_door",
-      "model": "garage_door",
+      "name": "garage_door_frame_2200",
+      "model": "garage_door_frame_2200",
       "material": "texture_wood"
     }
   ],
-  "type": "garage_door",
+  "type": "garage_door_frame_2200",
   "parts": [
     {
-      "object": "garage_door",
+      "object": "garage_door_frame_2200",
       "relative": {
         "x": {
           "a": 0.5,
@@ -80,7 +80,7 @@
   ],
   "cuts": [
     {
-      "object": "garage_door_box",
+      "object": "garage_door_frame_2200_box",
       "relative": {
         "x": {
           "a": 0.5,

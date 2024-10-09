@@ -1,0 +1,180 @@
+{
+  "textures": [
+    {
+      "name": "texture_wood",
+      "url": "./assets/textures/wood/texture_wood.jpg"
+    },
+    {
+      "name": "texture_wood_normal",
+      "url": "./assets/textures/wood/texture_wood_normal.jpg"
+    },
+    {
+      "name": "texture_wood_black",
+      "url": "./assets/textures/wood/texture_wood_black.jpg"
+    }
+  ],
+  "models": [
+    {
+      "name": "window_800x1200_cadre",
+      "url": "./assets/models/window_800x1200/window_800x1200_cadre.obj"
+    },
+    {
+      "name": "window_800x1200_frame",
+      "url": "./assets/models/window_800x1200/window_800x1200_frame.obj"
+    },
+    {
+      "name": "window_800x1200_glass",
+      "url": "./assets/models/window_800x1200/window_800x1200_glass.obj"
+    }
+  ],
+  "materials": [
+    {
+      "name": "material_wood",
+      "type": "standart",
+      "map": "texture_wood",
+      "normalMap": "texture_wood_normal",
+      "metalness": 0
+    },
+    {
+      "name": "material_wood_black",
+      "type": "standart",
+      "map": "texture_wood_black",
+      "normalMap": "texture_wood_normal",
+      "metalness": 0
+    },
+    {
+      "name": "material_wood_painted",
+      "type": "standart",
+      "color": "#493c35",
+      "normalMap": "texture_wood_normal",
+      "metalness": 0,
+      "roughness": 0.3
+    },
+    {
+      "name": "material_glass",
+      "type": "standart",
+      "color": "#5873cd",
+      "metalness": 0,
+      "roughness": 0.04545454680919647,
+      "opacity": 0.275,
+      "transparent": true
+    }
+  ],
+  "meshes": [
+    {
+      "name": "window_box",
+      "type": "box",
+      "size": {
+        "x": 0.84,
+        "y": 1.24,
+        "z": 1
+      },
+      "position": {
+        "x": 0,
+        "y": 0.62,
+        "z": 0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "name": "window_cadre",
+      "model": "window_800x1200_cadre",
+      "material": "material_wood",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0.075
+      }
+    },
+    {
+      "name": "window_frame",
+      "model": "window_800x1200_frame",
+      "material": "material_wood",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0.075
+      }
+    },
+    {
+      "name": "window_glass",
+      "model": "window_800x1200_glass",
+      "material": "material_glass",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0.075
+      }
+    }
+  ],
+  "type": "window_800x1200",
+  "parts": [
+    {
+      "object": "window_cadre",
+      "relative": {
+        "x": {
+          "a": 0.5,
+          "b": 0
+        },
+        "y": {
+          "a": 0,
+          "b": 960
+        }
+      }
+    },
+    {
+      "object": "window_frame",
+      "relative": {
+        "x": {
+          "a": 0.5,
+          "b": 0
+        },
+        "y": {
+          "a": 0,
+          "b": 960
+        }
+      }
+    },
+    {
+      "object": "window_glass",
+      "relative": {
+        "x": {
+          "a": 0.5,
+          "b": 0
+        },
+        "y": {
+          "a": 0,
+          "b": 960
+        }
+      }
+    }
+  ],
+  "cuts": [
+    {
+      "object": "window_box",
+      "relative": {
+        "x": {
+          "a": 0.5,
+          "b": 0
+        },
+        "y": {
+          "a": 0,
+          "b": 960
+        }
+      }
+    }
+  ],
+  "customizations": [
+    {
+      "name": "dark_window",
+      "object": "window_cadre",
+      "material": "material_wood_black"
+    },
+    {
+      "name": "dark_window",
+      "object": "window_frame",
+      "material": "material_wood_black"
+    }
+  ]
+}

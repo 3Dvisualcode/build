@@ -1,0 +1,109 @@
+{
+  "materials": [
+    {
+      "type": "empty",
+      "name": "Empty",
+      "price_per_unit": 20
+    },
+    {
+      "type": "wood",
+      "name": "Wood",
+      "price_per_unit": 100
+    },
+    {
+      "type": "brick",
+      "name": "Brick",
+      "price_per_unit": 200
+    },
+    {
+      "type": "wood_fill",
+      "name": "Wood",
+      "price_per_unit": 100
+    },
+    {
+      "type": "wood_fill2",
+      "name": "Wood double side",
+      "price_per_unit": 120
+    },
+    {
+      "type": "beam",
+      "name": "Beam",
+      "price_per_unit": 80
+    },
+    {
+      "type": "zhaluzi",
+      "name": "Zhaluzi",
+      "price_per_unit": 200
+    },
+    {
+      "type": "glass_1m",
+      "name": "Glass 1m",
+      "price_per_unit": 150
+    },
+    {
+      "type": "glass_2m",
+      "name": "Glass 2m",
+      "price_per_unit": 300
+    },
+    {
+      "type": "glass_door_2m",
+      "name": "Glass panel 2 sections",
+      "price_per_unit": 350
+    },
+    {
+      "type": "glass_door_3m",
+      "name": "Glass panel 3 sections",
+      "price_per_unit": 500
+    },
+    {
+      "type": "glass_door_4m",
+      "name": "Glass panel 4 sections",
+      "price_per_unit": 650
+    },
+    {
+      "type": "wood_fill_window",
+      "name": "Wood fill with window",
+      "price_per_unit": 220
+    },
+    {
+      "type": "wood_fill2_window",
+      "name": "Wood fill double side with window",
+      "price_per_unit": 250
+    },
+    {
+      "type": "wood_fill_door_left",
+      "name": "Wood fill double side with door left",
+      "price_per_unit": 300
+    },
+    {
+      "type": "wood_fill_door_right",
+      "name": "Wood fill with door right",
+      "price_per_unit": 300
+    },
+    {
+      "type": "wood_fill_window_door_left",
+      "name": "Wood fill with window and door left",
+      "price_per_unit": 400
+    },
+    {
+      "type": "wood_fill2_window_door_right",
+      "name": "Wood fill double side with window and door right",
+      "price_per_unit": 450
+    },
+    {
+      "type": "bricks_wood_fill",
+      "name": "Bricks with wood fill wall",
+      "price_per_unit": 500
+    },
+    {
+      "type": "bricks_wood_fill2",
+      "name": "Bricks with double wood fill wall",
+      "price_per_unit": 600
+    },
+    {
+      "type": "bricks_wood_fill_window",
+      "name": "Bricks with wood fill wall with window",
+      "price_per_unit": 700
+    }
+  ]
+}
