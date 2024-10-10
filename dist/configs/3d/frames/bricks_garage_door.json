@@ -34,12 +34,22 @@
     {
       "name": "bricks_wall_left",
       "model": "brick_wall_1m",
-      "material": "material_bricks"
+      "material": "material_bricks",
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
     },
     {
       "name": "bricks_wall_right",
       "model": "brick_wall_1m",
-      "material": "material_bricks"
+      "material": "material_bricks",
+      "scale": {
+        "x": -1,
+        "y": 1,
+        "z": 1
+      }
     }
   ],
   "meshes": [
@@ -63,7 +73,12 @@
       "object": "bricks_wall_left",
       "scaling": true,
       "initial": {
-        "x": 2270,
+        "x": 2000,
+        "y": 0,
+        "z": 0
+      },
+      "oversize": {
+        "x": 2500,
         "y": 0,
         "z": 0
       },
@@ -73,14 +88,20 @@
       "object": "bricks_wall_right",
       "scaling": true,
       "initial": {
-        "x": 2270,
+        "x": 2000,
         "y": 0,
         "z": 0
       },
-      "rotation": {
-        "x": 0,
-        "y": 180,
+      "oversize": {
+        "x": 2500,
+        "y": 0,
         "z": 0
+      },
+      "relative": {
+        "x": {
+          "a": 1,
+          "b": 0
+        }
       },
       "materialScaling": true
     }

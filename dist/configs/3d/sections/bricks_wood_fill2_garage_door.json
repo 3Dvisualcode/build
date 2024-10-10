@@ -62,6 +62,8 @@
     }
   ],
   "frames": [
+    "./configs/3d/frames/bricks_garage_door.json",
+    "./configs/3d/frames/garage_door_frame_bricks.json",
     "./configs/3d/frames/garage_door.json"
   ],
   "sections": [

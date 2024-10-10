@@ -683,7 +683,7 @@
     },
     "frame": [
       {
-        "type": "window",
+        "type": "window_800x1200",
         "size": {
           "min": 0,
           "max": 999999999
@@ -710,7 +710,7 @@
     },
     "frame": [
       {
-        "type": "window",
+        "type": "window_800x1200",
         "size": {
           "min": 0,
           "max": 999999999
@@ -738,14 +738,14 @@
     },
     "frame": [
       {
-        "type": "window_left",
+        "type": "left_window2_800x1200",
         "size": {
           "min": 0,
           "max": 999999999
         }
       },
       {
-        "type": "window_right",
+        "type": "right_window2_800x1200",
         "size": {
           "min": 0,
           "max": 999999999
@@ -766,14 +766,14 @@
     },
     "frame": [
       {
-        "type": "window_left",
+        "type": "left_window2_800x1200",
         "size": {
           "min": 0,
           "max": 999999999
         }
       },
       {
-        "type": "window_right",
+        "type": "right_window2_800x1200",
         "size": {
           "min": 0,
           "max": 999999999
@@ -802,14 +802,14 @@
         }
       },
       {
-        "type": "window_left",
+        "type": "left_window2_800x1200",
         "size": {
           "min": 0,
           "max": 999999999
         }
       },
       {
-        "type": "window_right",
+        "type": "right_window2_800x1200",
         "size": {
           "min": 0,
           "max": 999999999
@@ -837,14 +837,14 @@
         }
       },
       {
-        "type": "window_left",
+        "type": "left_window2_800x1200",
         "size": {
           "min": 0,
           "max": 999999999
         }
       },
       {
-        "type": "window_right",
+        "type": "right_window2_800x1200",
         "size": {
           "min": 0,
           "max": 999999999
@@ -923,7 +923,14 @@
     },
     "frame": [
       {
-        "type": "garage_door_frame",
+        "type": "bricks_garage_door",
+        "size": {
+          "min": 0,
+          "max": 999999999
+        }
+      },
+      {
+        "type": "garage_door_frame_bricks",
         "size": {
           "min": 0,
           "max": 999999999
@@ -951,7 +958,14 @@
     },
     "frame": [
       {
-        "type": "garage_door_frame",
+        "type": "bricks_garage_door",
+        "size": {
+          "min": 0,
+          "max": 999999999
+        }
+      },
+      {
+        "type": "garage_door_frame_bricks",
         "size": {
           "min": 0,
           "max": 999999999

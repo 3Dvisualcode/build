@@ -16,7 +16,7 @@
   "models": [
     {
       "name": "garage_door_frame",
-      "url": "./assets/models/common/garage_door/garage_door_frame.obj"
+      "url": "./assets/models/garage_door/garage_door_frame.obj"
     }
   ],
   "materials": [
@@ -49,7 +49,7 @@
       "type": "box",
       "size": {
         "x": 2.54,
-        "y": 1.9,
+        "y": 2.3,
         "z": 1
       },
       "position": {
@@ -63,7 +63,7 @@
     {
       "name": "garage_door_frame",
       "model": "garage_door_frame",
-      "material": "texture_wood"
+      "material": "material_wood"
     }
   ],
   "type": "garage_door_frame_bricks",
@@ -72,6 +72,10 @@
       "object": "garage_door_frame",
       "relative": {
         "x": {
+          "a": 0.5,
+          "b": 0
+        },
+        "z": {
           "a": 0.5,
           "b": 0
         }
@@ -91,6 +95,23 @@
           "b": 0
         }
       }
+    }
+  ],
+  "customizations": [
+    {
+      "name": "dark_door",
+      "object": "garage_door_frame",
+      "material": "material_wood_black"
+    },
+    {
+      "name": "painted_door",
+      "object": "garage_door_frame",
+      "material": "material_wood_painted"
+    },
+    {
+      "name": "white_door",
+      "object": "garage_door_frame",
+      "material": "material_white"
     }
   ]
 }

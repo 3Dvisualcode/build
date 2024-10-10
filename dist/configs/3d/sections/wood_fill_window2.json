@@ -52,8 +52,8 @@
     }
   ],
   "frames": [
-    "./configs/3d/frames/wall_window_left.json",
-    "./configs/3d/frames/wall_window_right.json"
+    "./configs/3d/frames/left_window2_800x1200.json",
+    "./configs/3d/frames/right_window2_800x1200.json"
   ],
   "sections": [
     {
