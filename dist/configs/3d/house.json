@@ -98,6 +98,8 @@
     "./configs/3d/sections/wood_fill_garage_door.json",
     "./configs/3d/sections/wood_fill2_garage_door.json",
     "./configs/3d/sections/bricks_wood_fill_garage_door.json",
-    "./configs/3d/sections/bricks_wood_fill2_garage_door.json"
+    "./configs/3d/sections/bricks_wood_fill2_garage_door.json",
+    "./configs/3d/sections/wall_blockhut.json",
+    "./configs/3d/sections/wall_potdeksel.json"
   ]
 }

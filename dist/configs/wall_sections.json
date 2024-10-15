@@ -984,5 +984,29 @@
       "dark_inner",
       "dark_door"
     ]
+  },
+  {
+    "type": "wall_blockhut",
+    "name": "Blockhut",
+    "size": {
+      "min": 0,
+      "max": 999999999
+    },
+    "frame": [],
+    "customization": [
+      "dark"
+    ]
+  },
+  {
+    "type": "wall_potdeksel",
+    "name": "Potdeksel",
+    "size": {
+      "min": 0,
+      "max": 999999999
+    },
+    "frame": [],
+    "customization": [
+      "dark"
+    ]
   }
 ]
