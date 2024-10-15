@@ -1,0 +1,124 @@
+{
+  "models": {
+    "metalTiles": [
+      {
+        "name": "metalTileBase",
+        "url": "./assets/models/tiles_pcs/tile2/tile2.obj"
+      },
+      {
+        "name": "metalTileRidge",
+        "url": "./assets/models/tiles_pcs/tile2/tile2_ridge.obj"
+      }
+    ],
+    "isolatedPlates": [
+      {
+        "name": "isolatedTileBase",
+        "url": "./assets/models/roof_zadeldak/40degree_roof/isolated_plate/isolated_plate_base/isolated_plate_base_metal.obj"
+      },
+      {
+        "name": "isolatedTileRidge",
+        "url": "./assets/models/roof_zadeldak/40degree_roof/isolated_plate/isolated_plate_parts/isolated_plate_ridge_cover.obj"
+      },
+      {
+        "name": "insulation",
+        "url": "./assets/models/roof_zadeldak/40degree_roof/isolated_plate/isolated_plate_base/isolated_plate_base_insulation.obj"
+      }
+    ],
+    "tilesTiled": [
+      {
+        "name": "tilesTiledTile1",
+        "url": "./assets/models/tiles_pcs/tile3/tile3-1_pivot1.obj"
+      },
+      {
+        "name": "tilesTiledTile2",
+        "url": "./assets/models/tiles_pcs/tile3/tile3-2_pivot2.obj"
+      },
+      {
+        "name": "tilesTiledTile3",
+        "url": "./assets/models/tiles_pcs/tile3/tile3-3_pivot3.obj"
+      },
+      {
+        "name": "tilesTiledRidge",
+        "url": "./assets/models/tiles_pcs/tile3/tile3_ridge_1.obj"
+      }
+    ],
+    "tilesAluminium": [
+      {
+        "name": "tilesAluminiumBase",
+        "url": "./assets/models/tiles_pcs/tile1/tile-01.obj"
+      },
+      {
+        "name": "tilesAluminiumStart",
+        "url": "./assets/models/tiles_pcs/tile1-start/tile-01-side1.obj"
+      },
+      {
+        "name": "tilesAluminiumEnd",
+        "url": "./assets/models/tiles_pcs/tile1-end/tile-01-side2.obj"
+      },
+      {
+        "name": "tilesAluminiumCap",
+        "url": "./assets/models/tiles_pcs/tile1-end/tile-01-side2.obj"
+      },
+      {
+        "name": "tilesAluminiumStripe",
+        "url": "./assets/models/tiles_pcs/stripe_zadeldak/stripe_zadeldak.obj"
+      },
+      {
+        "name": "tilesAluminiumRidgeCap",
+        "url": "./assets/models/tiles_pcs/tile1-end/tile-01-side2_ridge.obj"
+      },
+      {
+        "name": "tilesAluminiumRidgeBase",
+        "url": "./assets/models/tiles_pcs/tile1/tile-01-ridge.obj"
+      }
+    ],
+    "tilesClay": [
+      {
+        "name": "tilesClayBase",
+        "url": "./assets/models/roof_zadeldak/40degree_roof/tiled_roof/tiles_roof_singles/roof_tile_base.obj"
+      },
+      {
+        "name": "tilesClayStart",
+        "url": "./assets/models/roof_zadeldak/40degree_roof/tiled_roof/tiles_roof_singles/roof_tile_start.obj"
+      },
+      {
+        "name": "tilesClayEnd",
+        "url": "./assets/models/roof_zadeldak/40degree_roof/tiled_roof/tiles_roof_singles/roof_tile_end.obj"
+      },
+      {
+        "name": "tilesClayRidgeCap",
+        "url": "./assets/models/roof_zadeldak/40degree_roof/tiled_roof/tiles_ridge/tile_ridge_start.obj"
+      },
+      {
+        "name": "tilesClayRidgeBase",
+        "url": "./assets/models/roof_zadeldak/40degree_roof/tiled_roof/tiles_ridge/tile_ridge_base.obj"
+      }
+    ]
+  },
+  "textures": [
+    {
+      "name": "baseBlack",
+      "url": "./assets/textures/roof_texture/Black_BaseColor.png"
+    },
+    {
+      "name": "baseBlackNormal",
+      "url": "./assets/textures/roof_texture/roof_normalMap.jpg"
+    },
+    {
+      "name": "wood",
+      "url": "./assets/textures/wood/texture_wood.jpg"
+    },
+    {
+      "name": "wood90",
+      "url": "./assets/textures/wood/texture_wood_90.jpg"
+    },
+    {
+      "name": "redTexture",
+      "url": "./assets/textures/roof_texture/Red_BaseColor_.png"
+    },
+    {
+      "name": "darkWood",
+      "url": "./assets/textures/wood/wood_texture_black.jpg"
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "type": "bricks_garage_door",
+  "textures": [
+    {
+      "name": "texture_bricks",
+      "url": "./assets/textures/bricks/bricks_baseColor_dark.png"
+    },
+    {
+      "name": "texture_bricks_normal",
+      "url": "./assets/textures/bricks/bricks_normal.png"
+    },
+    {
+      "name": "texture_bricks_roughness",
+      "url": "./assets/textures/bricks/bricks_roughness.png"
+    }
+  ],
+  "models": [
+    {
+      "name": "brick_wall_1m",
+      "url": "./assets/models/common/brick_wall_1m.obj"
+    }
+  ],
+  "materials": [
+    {
+      "name": "material_bricks",
+      "type": "standart",
+      "map": "texture_bricks",
+      "normalMap": "texture_bricks_normal",
+      "roughnessMap": "texture_bricks_roughness",
+      "metalness": 0
+    }
+  ],
+  "objects": [
+    {
+      "name": "bricks_wall_left",
+      "model": "brick_wall_1m",
+      "material": "material_bricks",
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    {
+      "name": "bricks_wall_right",
+      "model": "brick_wall_1m",
+      "material": "material_bricks",
+      "scale": {
+        "x": -1,
+        "y": 1,
+        "z": 1
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "bricks_wall_box",
+      "type": "box",
+      "size": {
+        "x": 1.1,
+        "y": 0.5,
+        "z": 1
+      },
+      "position": {
+        "x": 0.5,
+        "y": 0.15,
+        "z": 0
+      }
+    }
+  ],
+  "parts": [
+    {
+      "object": "bricks_wall_left",
+      "scaling": true,
+      "initial": {
+        "x": 2000,
+        "y": 0,
+        "z": 0
+      },
+      "oversize": {
+        "x": 2500,
+        "y": 0,
+        "z": 0
+      },
+      "materialScaling": true
+    },
+    {
+      "object": "bricks_wall_right",
+      "scaling": true,
+      "initial": {
+        "x": 2000,
+        "y": 0,
+        "z": 0
+      },
+      "oversize": {
+        "x": 2500,
+        "y": 0,
+        "z": 0
+      },
+      "relative": {
+        "x": {
+          "a": 1,
+          "b": 0
+        }
+      },
+      "materialScaling": true
+    }
+  ],
+  "cuts": [
+    {
+      "object": "bricks_wall_box",
+      "scaling": true,
+      "initial": {
+        "x": 1000,
+        "y": 0,
+        "z": 0
+      }
+    }
+  ]
+}

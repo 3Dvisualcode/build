@@ -1,0 +1,6 @@
+{
+  "type": "empty",
+  "frames": [
+    "./configs/3d/frames/corners.json"
+  ]
+}

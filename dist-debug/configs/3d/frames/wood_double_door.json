@@ -1,0 +1,153 @@
+{
+  "textures": [
+    {
+      "name": "texture_wood",
+      "url": "./assets/textures/wood/texture_wood.jpg"
+    },
+    {
+      "name": "texture_wood_normal",
+      "url": "./assets/textures/wood/texture_wood_normal.jpg"
+    },
+    {
+      "name": "texture_wood_black",
+      "url": "./assets/textures/wood/texture_wood_black.jpg"
+    }
+  ],
+  "models": [
+    {
+      "name": "double_door_wood_metal",
+      "url": "./assets/models/double_door/double_door_wood_metal.obj"
+    },
+    {
+      "name": "double_door_wood",
+      "url": "./assets/models/double_door/double_door_wood.obj"
+    }
+  ],
+  "materials": [
+    {
+      "name": "material_wood",
+      "type": "standart",
+      "map": "texture_wood",
+      "normalMap": "texture_wood_normal",
+      "metalness": 0
+    },
+    {
+      "name": "material_wood_black",
+      "type": "standart",
+      "map": "texture_wood_black",
+      "normalMap": "texture_wood_normal",
+      "metalness": 0
+    },
+    {
+      "name": "material_wood_painted",
+      "type": "standart",
+      "color": "#493c35",
+      "normalMap": "texture_wood_normal",
+      "metalness": 0,
+      "roughness": 0.3
+    },
+    {
+      "name": "material_metal_stainless",
+      "type": "standart",
+      "color": "#a7becd",
+      "metalness": 1,
+      "roughness": 0.35
+    },
+    {
+      "name": "material_white",
+      "type": "standart",
+      "color": "#cdcdcd",
+      "metalness": 0,
+      "roughness": 0.25
+    }
+  ],
+  "meshes": [
+    {
+      "name": "double_door_box",
+      "type": "box",
+      "size": {
+        "x": 2.5,
+        "y": 2.3,
+        "z": 1
+      },
+      "position": {
+        "x": 0,
+        "y": 1.05,
+        "z": 0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "name": "double_door_wood",
+      "model": "double_door_wood",
+      "material": "material_wood"
+    },
+    {
+      "name": "double_door_wood_metal",
+      "model": "double_door_wood_metal",
+      "material": "material_metal_stainless"
+    }
+  ],
+  "type": "wood_double_door",
+  "parts": [
+    {
+      "object": "double_door_wood",
+      "relative": {
+        "x": {
+          "a": 0.5,
+          "b": 0
+        },
+        "z": {
+          "a": 0.5,
+          "b": 0
+        }
+      }
+    },
+    {
+      "object": "double_door_wood_metal",
+      "relative": {
+        "x": {
+          "a": 0.5,
+          "b": 0
+        },
+        "z": {
+          "a": 0.5,
+          "b": 0
+        }
+      }
+    }
+  ],
+  "cuts": [
+    {
+      "object": "double_door_box",
+      "relative": {
+        "x": {
+          "a": 0.5,
+          "b": 0
+        },
+        "y": {
+          "a": 0,
+          "b": 0
+        }
+      }
+    }
+  ],
+  "customizations": [
+    {
+      "name": "dark_door",
+      "object": "double_door_wood",
+      "material": "material_wood_black"
+    },
+    {
+      "name": "painted_door",
+      "object": "double_door_wood",
+      "material": "material_wood_painted"
+    },
+    {
+      "name": "white_door",
+      "object": "double_door_wood",
+      "material": "material_white"
+    }
+  ]
+}

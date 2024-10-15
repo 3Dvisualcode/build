@@ -1,0 +1,20 @@
+{
+  "hdri": "./assets/environment/cedar_bridge_4k.hdr",
+  "background": "#dddddd",
+  "camera": {
+    "fov": 30,
+    "position": {
+      "x": 0,
+      "y": 3,
+      "z": 18
+    },
+    "target": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  "houseScale": 0.001,
+  "environment": "./configs/3d/environment.json",
+  "house": "./configs/3d/house.json"
+}

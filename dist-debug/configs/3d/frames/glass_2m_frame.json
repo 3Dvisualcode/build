@@ -1,0 +1,42 @@
+{
+  "textures": [],
+  "models": [
+    {
+      "name": "glass_window_2m_frame",
+      "url": "./assets/models/glass_window/window_2.obj"
+    }
+  ],
+  "materials": [
+    {
+      "name": "glass_window_frame",
+      "type": "standart",
+      "color": "#000000",
+      "metalness": 0.1,
+      "roughness": 0.8
+    }
+  ],
+  "objects": [
+    {
+      "name": "glass_window_frame",
+      "model": "glass_window_2m_frame",
+      "material": "glass_window_frame",
+      "scale": {
+        "x": 0.01,
+        "y": 0.01,
+        "z": 0.01
+      }
+    }
+  ],
+  "type": "glass_2m_frame",
+  "parts": [
+    {
+      "object": "glass_window_frame",
+      "scaling": true,
+      "initial": {
+        "x": 2000,
+        "y": 2200,
+        "z": 0
+      }
+    }
+  ]
+}
