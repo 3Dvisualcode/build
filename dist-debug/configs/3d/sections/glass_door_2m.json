@@ -1,7 +1,0 @@
-{
-  "type": "glass_door_2m",
-  "frames": [
-    "./configs/3d/frames/glass_door_2m_frame.json",
-    "./configs/3d/frames/glass_door_2m_glass.json"
-  ]
-}

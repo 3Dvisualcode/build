@@ -1,7 +1,0 @@
-{
-  "type": "glass_1m",
-  "frames": [
-    "./configs/3d/frames/glass_1m_frame.json",
-    "./configs/3d/frames/glass_1m_glass.json"
-  ]
-}
