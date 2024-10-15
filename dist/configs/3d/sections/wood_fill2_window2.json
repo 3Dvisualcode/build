@@ -7,7 +7,7 @@
     },
     {
       "name": "texture_wood_normal",
-      "url": "./assets/textures/wood/texture_wood_normal.jpg"
+      "url": "./assets/textures/wood/wood_texture_normal.png"
     },
     {
       "name": "texture_wood_black",
@@ -62,8 +62,8 @@
     }
   ],
   "frames": [
-    "./configs/3d/frames/wall_window_left.json",
-    "./configs/3d/frames/wall_window_right.json"
+    "./configs/3d/frames/left_window2_800x1200.json",
+    "./configs/3d/frames/right_window2_800x1200.json"
   ],
   "sections": [
     {

@@ -6,7 +6,7 @@
     },
     {
       "name": "texture_wood_normal",
-      "url": "./assets/textures/wood/texture_wood_normal.jpg"
+      "url": "./assets/textures/wood/wood_texture_normal.png"
     }
   ],
   "models": [
