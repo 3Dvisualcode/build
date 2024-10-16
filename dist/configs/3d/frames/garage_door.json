@@ -1,4 +1,5 @@
 {
+  "type": "garage_door",
   "textures": [
     {
       "name": "texture_wood",
@@ -48,6 +49,13 @@
       "color": "#cdcdcd",
       "metalness": 0,
       "roughness": 0.25
+    },
+    {
+      "name": "material_garage_doors",
+      "type": "standart",
+      "color": "#090909",
+      "metalness": 0,
+      "roughness": 0.25
     }
   ],
   "meshes": [
@@ -70,10 +78,9 @@
     {
       "name": "garage_door",
       "model": "garage_door",
-      "material": "material_wood"
+      "material": "material_garage_doors"
     }
   ],
-  "type": "garage_door",
   "parts": [
     {
       "object": "garage_door",

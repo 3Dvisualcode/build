@@ -1,4 +1,5 @@
 {
+  "type": "left_window_800x1200",
   "textures": [
     {
       "name": "texture_wood",
@@ -51,6 +52,13 @@
       "roughness": 0.3
     },
     {
+      "name": "material_white",
+      "type": "standart",
+      "color": "#cdcdcd",
+      "metalness": 0,
+      "roughness": 0.25
+    },
+    {
       "name": "material_glass",
       "type": "standart",
       "color": "#5873cd",
@@ -93,7 +101,6 @@
       "material": "material_glass"
     }
   ],
-  "type": "left_window_800x1200",
   "parts": [
     {
       "object": "window_cadre",
@@ -160,6 +167,38 @@
           "b": 960
         }
       }
+    }
+  ],
+  "customizations": [
+    {
+      "name": "dark_window",
+      "object": "window_cadre",
+      "material": "material_wood_black"
+    },
+    {
+      "name": "dark_window",
+      "object": "window_frame",
+      "material": "material_wood_black"
+    },
+    {
+      "name": "painted_window",
+      "object": "window_cadre",
+      "material": "material_wood_painted"
+    },
+    {
+      "name": "painted_window",
+      "object": "window_frame",
+      "material": "material_wood_painted"
+    },
+    {
+      "name": "white_window",
+      "object": "window_cadre",
+      "material": "material_white"
+    },
+    {
+      "name": "white_window",
+      "object": "window_frame",
+      "material": "material_white"
     }
   ]
 }

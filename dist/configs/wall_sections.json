@@ -994,7 +994,278 @@
     },
     "frame": [],
     "customization": [
-      "dark"
+      "dark",
+      "painted",
+      "white"
+    ]
+  },
+  {
+    "type": "wall_blockhut_door_left",
+    "name": "Blockhut door left",
+    "size": {
+      "min": 0,
+      "max": 999999999
+    },
+    "frame": [
+      {
+        "type": "wood_door_frame_2200",
+        "size": {
+          "min": 0,
+          "max": 999999999
+        }
+      },
+      {
+        "type": "wood_door_left",
+        "size": {
+          "min": 0,
+          "max": 999999999
+        }
+      }
+    ],
+    "customization": [
+      "dark",
+      "dark_door",
+      "painted",
+      "painted_door",
+      "white",
+      "white_door"
+    ]
+  },
+  {
+    "type": "wall_blockhut_door_right",
+    "name": "Blockhut door right",
+    "size": {
+      "min": 0,
+      "max": 999999999
+    },
+    "frame": [
+      {
+        "type": "wood_door_frame_2200",
+        "size": {
+          "min": 0,
+          "max": 999999999
+        }
+      },
+      {
+        "type": "wood_door_right",
+        "size": {
+          "min": 0,
+          "max": 999999999
+        }
+      }
+    ],
+    "customization": [
+      "dark",
+      "dark_door",
+      "painted",
+      "painted_door",
+      "white",
+      "white_door"
+    ]
+  },
+  {
+    "type": "wall_blockhut_double_door",
+    "name": "Blockhut double doors",
+    "size": {
+      "min": 0,
+      "max": 999999999
+    },
+    "frame": [
+      {
+        "type": "wood_double_door_cadre_2200",
+        "size": {
+          "min": 0,
+          "max": 999999999
+        }
+      },
+      {
+        "type": "wood_double_door",
+        "size": {
+          "min": 0,
+          "max": 999999999
+        }
+      }
+    ],
+    "customization": [
+      "dark",
+      "dark_door",
+      "painted",
+      "painted_door",
+      "white",
+      "white_door"
+    ]
+  },
+  {
+    "type": "wall_blockhut_garage_door",
+    "name": "Blockhut garage door",
+    "size": {
+      "min": 0,
+      "max": 999999999
+    },
+    "frame": [
+      {
+        "type": "garage_door_frame_2200",
+        "size": {
+          "min": 0,
+          "max": 999999999
+        }
+      },
+      {
+        "type": "garage_door",
+        "size": {
+          "min": 0,
+          "max": 999999999
+        }
+      }
+    ],
+    "customization": [
+      "dark",
+      "dark_door",
+      "painted",
+      "painted_door",
+      "white",
+      "white_door"
+    ]
+  },
+  {
+    "type": "wall_blockhut_window_800x1200",
+    "name": "Blockhut window 800x1200",
+    "size": {
+      "min": 0,
+      "max": 999999999
+    },
+    "frame": [
+      {
+        "type": "window_800x1200",
+        "size": {
+          "min": 0,
+          "max": 999999999
+        }
+      }
+    ],
+    "customization": [
+      "dark",
+      "dark_window",
+      "painted",
+      "painted_window",
+      "white",
+      "white_window"
+    ]
+  },
+  {
+    "type": "wall_blockhut_window2_800x1200",
+    "name": "Blockhut window (2) 800x1200",
+    "size": {
+      "min": 0,
+      "max": 999999999
+    },
+    "frame": [
+      {
+        "type": "left_window2_800x1200",
+        "size": {
+          "min": 0,
+          "max": 999999999
+        }
+      },
+      {
+        "type": "right_window2_800x1200",
+        "size": {
+          "min": 0,
+          "max": 999999999
+        }
+      }
+    ],
+    "customization": [
+      "dark",
+      "dark_window",
+      "painted",
+      "painted_window",
+      "white",
+      "white_window"
+    ]
+  },
+  {
+    "type": "wall_blockhut_window_door_left",
+    "name": "Blockhut window with door left",
+    "size": {
+      "min": 0,
+      "max": 999999999
+    },
+    "frame": [
+      {
+        "type": "left_wood_door_frame_2200",
+        "size": {
+          "min": 0,
+          "max": 999999999
+        }
+      },
+      {
+        "type": "left_wood_door_left",
+        "size": {
+          "min": 0,
+          "max": 999999999
+        }
+      },
+      {
+        "type": "right_window_800x1200",
+        "size": {
+          "min": 0,
+          "max": 999999999
+        }
+      }
+    ],
+    "customization": [
+      "dark",
+      "dark_door",
+      "dark_window",
+      "painted",
+      "painted_door",
+      "painted_window",
+      "white",
+      "white_door",
+      "white_window"
+    ]
+  },
+  {
+    "type": "wall_blockhut_window_door_right",
+    "name": "Blockhut window with door right",
+    "size": {
+      "min": 0,
+      "max": 999999999
+    },
+    "frame": [
+      {
+        "type": "right_wood_door_frame_2200",
+        "size": {
+          "min": 0,
+          "max": 999999999
+        }
+      },
+      {
+        "type": "right_wood_door_right",
+        "size": {
+          "min": 0,
+          "max": 999999999
+        }
+      },
+      {
+        "type": "left_window_800x1200",
+        "size": {
+          "min": 0,
+          "max": 999999999
+        }
+      }
+    ],
+    "customization": [
+      "dark",
+      "dark_door",
+      "dark_window",
+      "painted",
+      "painted_door",
+      "painted_window",
+      "white",
+      "white_door",
+      "white_window"
     ]
   },
   {

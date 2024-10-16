@@ -99,7 +99,15 @@
     "./configs/3d/sections/wood_fill2_garage_door.json",
     "./configs/3d/sections/bricks_wood_fill_garage_door.json",
     "./configs/3d/sections/bricks_wood_fill2_garage_door.json",
-    "./configs/3d/sections/wall_blockhut.json",
+    "./configs/3d/sections/blockhut/wall_blockhut.json",
+    "./configs/3d/sections/blockhut/wall_blockhut_door_left.json",
+    "./configs/3d/sections/blockhut/wall_blockhut_door_right.json",
+    "./configs/3d/sections/blockhut/wall_blockhut_double_door.json",
+    "./configs/3d/sections/blockhut/wall_blockhut_garage_door.json",
+    "./configs/3d/sections/blockhut/wall_blockhut_window2_800x1200.json",
+    "./configs/3d/sections/blockhut/wall_blockhut_window_800x1200.json",
+    "./configs/3d/sections/blockhut/wall_blockhut_window_door_left.json",
+    "./configs/3d/sections/blockhut/wall_blockhut_window_door_right.json",
     "./configs/3d/sections/wall_potdeksel.json"
   ]
 }

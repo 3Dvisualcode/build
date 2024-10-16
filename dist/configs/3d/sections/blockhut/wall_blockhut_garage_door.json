@@ -1,4 +1,5 @@
 {
+  "type": "wall_blockhut_garage_door",
   "textures": [
     {
       "name": "texture_wood",
@@ -15,8 +16,8 @@
   ],
   "models": [
     {
-      "name": "double_door_wood_cadre_2200",
-      "url": "./assets/models/double_door/double_door_wood_cadre_2200.obj"
+      "name": "wall_blockhut_2200x1000",
+      "url": "./assets/models/wall/wall_blockhut_2200x1000.obj"
     }
   ],
   "materials": [
@@ -48,83 +49,50 @@
       "color": "#cdcdcd",
       "metalness": 0,
       "roughness": 0.25
-    },
-    {
-      "name": "material_metal_stainless",
-      "type": "standart",
-      "color": "#a7becd",
-      "metalness": 1,
-      "roughness": 0.35
-    }
-  ],
-  "meshes": [
-    {
-      "name": "double_door_cadre_2200_box",
-      "type": "box",
-      "size": {
-        "x": 2.54,
-        "y": 2.3,
-        "z": 1
-      },
-      "position": {
-        "x": 0,
-        "y": 1.05,
-        "z": 0
-      }
     }
   ],
   "objects": [
     {
-      "name": "double_door_wood_cadre_2200",
-      "model": "double_door_wood_cadre_2200",
+      "name": "wall_blockhut",
+      "model": "wall_blockhut_2200x1000",
       "material": "material_wood"
     }
   ],
-  "type": "wood_double_door_cadre_2200",
-  "parts": [
+  "frames": [
+    "./configs/3d/frames/garage_door_frame_2200.json",
+    "./configs/3d/frames/garage_door.json"
+  ],
+  "sections": [
     {
-      "object": "double_door_wood_cadre_2200",
+      "object": "wall_blockhut",
+      "initial": {
+        "x": 1000,
+        "y": 2200,
+        "z": 0
+      },
       "relative": {
-        "x": {
-          "a": 0.5,
-          "b": 0
-        },
         "z": {
           "a": 0.5,
-          "b": 0
+          "b": -25
         }
-      }
-    }
-  ],
-  "cuts": [
-    {
-      "object": "double_door_cadre_2200_box",
-      "relative": {
-        "x": {
-          "a": 0.5,
-          "b": 0
-        },
-        "y": {
-          "a": 0,
-          "b": 0
-        }
-      }
+      },
+      "materialScaling": true
     }
   ],
   "customizations": [
     {
-      "name": "dark_door",
-      "object": "double_door_wood_cadre_2200",
+      "name": "dark",
+      "object": "wall_blockhut",
       "material": "material_wood_black"
     },
     {
-      "name": "painted_door",
-      "object": "double_door_wood_cadre_2200",
+      "name": "painted",
+      "object": "wall_blockhut",
       "material": "material_wood_painted"
     },
     {
-      "name": "white_door",
-      "object": "double_door_wood_cadre_2200",
+      "name": "white",
+      "object": "wall_blockhut",
       "material": "material_white"
     }
   ]

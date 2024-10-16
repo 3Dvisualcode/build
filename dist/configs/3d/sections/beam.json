@@ -22,35 +22,33 @@
   ],
   "materials": [
     {
-      "name": "material_wood_common",
-      "type": "phong",
-      "color": "#ffffff",
+      "name": "material_wood",
+      "type": "standart",
       "map": "texture_wood",
       "normalMap": "texture_wood_normal",
-      "emissive": "#000000",
-      "roughness": 0.5,
-      "metalness": 0,
-      "transparent": false,
-      "shininess": 50
+      "metalness": 0
     },
     {
-      "name": "material_wood_dark",
-      "type": "phong",
-      "color": "#ffffff",
+      "name": "material_wood_black",
+      "type": "standart",
       "map": "texture_wood_black",
       "normalMap": "texture_wood_normal",
-      "emissive": "#000000",
-      "roughness": 0.5,
+      "metalness": 0
+    },
+    {
+      "name": "material_wood_painted",
+      "type": "standart",
+      "color": "#493c35",
+      "normalMap": "texture_wood_normal",
       "metalness": 0,
-      "transparent": false,
-      "shininess": 50
+      "roughness": 0.3
     }
   ],
   "objects": [
     {
       "name": "beam",
       "model": "balk_244mm",
-      "material": "material_wood_common",
+      "material": "material_wood",
       "position": {
         "x": 0.075,
         "y": 0,
