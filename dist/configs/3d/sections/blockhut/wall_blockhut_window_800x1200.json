@@ -59,6 +59,7 @@
     }
   ],
   "frames": [
+    "./configs/3d/frames/blockhut/blockhut_logs.json",
     "./configs/3d/frames/window_800x1200.json"
   ],
   "sections": [
@@ -72,7 +73,7 @@
       "relative": {
         "z": {
           "a": 0.5,
-          "b": -25
+          "b": -75
         }
       },
       "materialScaling": true

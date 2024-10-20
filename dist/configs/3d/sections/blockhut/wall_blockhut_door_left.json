@@ -59,6 +59,7 @@
     }
   ],
   "frames": [
+    "./configs/3d/frames/blockhut/blockhut_logs.json",
     "./configs/3d/frames/wood_door_frame_2200.json",
     "./configs/3d/frames/wood_door_left.json"
   ],
@@ -73,7 +74,7 @@
       "relative": {
         "z": {
           "a": 0.5,
-          "b": -25
+          "b": -75
         }
       },
       "materialScaling": true

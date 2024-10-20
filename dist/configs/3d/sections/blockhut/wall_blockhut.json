@@ -58,7 +58,9 @@
       "material": "material_wood"
     }
   ],
-  "frames": [],
+  "frames": [
+    "./configs/3d/frames/blockhut/blockhut_logs.json"
+  ],
   "sections": [
     {
       "object": "wall_blockhut",
@@ -70,7 +72,7 @@
       "relative": {
         "z": {
           "a": 0.5,
-          "b": -25
+          "b": -75
         }
       },
       "materialScaling": true
