@@ -2,6 +2,10 @@
   "type": "blockhut_logs",
   "textures": [
     {
+      "name": "texture_wood",
+      "url": "./assets/textures/wood/texture_wood.jpg"
+    },
+    {
       "name": "texture_wood_light",
       "url": "./assets/textures/wood/wood_texture_light.png"
     },
@@ -16,11 +20,22 @@
   ],
   "models": [
     {
+      "name": "kosour",
+      "url": "./assets/models/kosour.obj"
+    },
+    {
       "name": "log_50x50",
       "url": "./assets/models/wall/log_50x50.obj"
     }
   ],
   "materials": [
+    {
+      "name": "material_wood",
+      "type": "standart",
+      "map": "texture_wood",
+      "normalMap": "texture_wood_normal",
+      "metalness": 0
+    },
     {
       "name": "material_wood_light",
       "type": "standart",
@@ -51,6 +66,31 @@
       "name": "log_rb",
       "model": "log_50x50",
       "material": "material_wood_light"
+    },
+    {
+      "name": "kosour_l",
+      "model": "kosour",
+      "material": "material_wood",
+      "rotation": {
+        "x": 0,
+        "y": 90,
+        "z": 0
+      }
+    },
+    {
+      "name": "kosour_r",
+      "model": "kosour",
+      "material": "material_wood",
+      "rotation": {
+        "x": 0,
+        "y": 90,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": -1
+      }
     }
   ],
   "parts": [
@@ -127,6 +167,40 @@
         "z": {
           "a": 0.5,
           "b": -75
+        }
+      }
+    },
+    {
+      "object": "kosour_l",
+      "relative": {
+        "x": {
+          "a": 0,
+          "b": 50
+        },
+        "y": {
+          "a": 1,
+          "b": 0
+        },
+        "z": {
+          "a": 0.5,
+          "b": 0
+        }
+      }
+    },
+    {
+      "object": "kosour_r",
+      "relative": {
+        "x": {
+          "a": 1,
+          "b": -50
+        },
+        "y": {
+          "a": 1,
+          "b": 0
+        },
+        "z": {
+          "a": 0.5,
+          "b": 0
         }
       }
     }
