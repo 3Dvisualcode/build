@@ -1,5 +1,6 @@
 {
   "hdri": "./assets/environment/cedar_bridge_05k.hdr",
+  "modelview": true,
   "background": "#dddddd",
   "camera": {
     "fov": 30,
