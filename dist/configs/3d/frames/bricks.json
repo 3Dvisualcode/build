@@ -2,16 +2,16 @@
   "type": "bricks",
   "textures": [
     {
-      "name": "bricks_base",
-      "url": "./assets/textures/common/bricks_baseColor_dark.png"
+      "name": "texture_bricks",
+      "url": "./assets/textures/bricks/bricks_baseColor_dark.png"
     },
     {
-      "name": "bricks_normal",
-      "url": "./assets/textures/common/bricks_normal.png"
+      "name": "texture_bricks_normal",
+      "url": "./assets/textures/bricks/bricks_normal.png"
     },
     {
-      "name": "bricks_roughness",
-      "url": "./assets/textures/common/bricks_roughness.png"
+      "name": "texture_bricks_roughness",
+      "url": "./assets/textures/bricks/bricks_roughness.png"
     }
   ],
   "models": [
@@ -22,25 +22,25 @@
   ],
   "materials": [
     {
-      "name": "bricks_material",
+      "name": "material_bricks",
       "type": "standart",
-      "map": "bricks_base",
-      "normalMap": "bricks_normal",
-      "roughnessMap": "bricks_roughness"
+      "map": "texture_bricks",
+      "normalMap": "texture_bricks_normal",
+      "roughnessMap": "texture_bricks_roughness",
+      "metalness": 0
     }
   ],
   "objects": [
     {
       "name": "bricks_wall",
       "model": "brick_wall_1m",
-      "material": "bricks_material"
+      "material": "material_bricks"
     }
   ],
   "meshes": [
     {
       "name": "bricks_wall_box",
       "type": "box",
-      "material": "bricks_material",
       "size": {
         "x": 1.1,
         "y": 0.5,
@@ -62,6 +62,12 @@
         "y": 0,
         "z": 0
       },
+      "relative": {
+        "z": {
+          "a": 0.5,
+          "b": -50
+        }
+      },
       "materialScaling": true
     }
   ],
@@ -75,5 +81,6 @@
         "z": 0
       }
     }
-  ]
+  ],
+  "customizations": []
 }

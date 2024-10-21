@@ -4,6 +4,14 @@
     {
       "name": "texture_wood",
       "url": "./assets/textures/wood/texture_wood.jpg"
+    },
+    {
+      "name": "texture_wood_normal",
+      "url": "./assets/textures/wood/wood_texture_normal.png"
+    },
+    {
+      "name": "texture_wood_black",
+      "url": "./assets/textures/wood/texture_wood_black.jpg"
     }
   ],
   "models": [
@@ -14,24 +22,38 @@
   ],
   "materials": [
     {
-      "name": "wood_fill_material",
+      "name": "material_wood",
       "type": "standart",
-      "color": "#ffffff",
       "map": "texture_wood",
-      "metalness": 0.8,
-      "roughness": 0.55
+      "normalMap": "texture_wood_normal",
+      "metalness": 0
+    },
+    {
+      "name": "material_wood_black",
+      "type": "standart",
+      "map": "texture_wood_black",
+      "normalMap": "texture_wood_normal",
+      "metalness": 0
+    },
+    {
+      "name": "material_wood_painted",
+      "type": "standart",
+      "color": "#493c35",
+      "normalMap": "texture_wood_normal",
+      "metalness": 0,
+      "roughness": 0.3
     }
   ],
   "objects": [
     {
       "name": "wood_wall",
       "model": "wall_big",
-      "material": "wood_fill_material"
+      "material": "material_wood"
     },
     {
       "name": "wood_wall_inner",
       "model": "wall_big",
-      "material": "wood_fill_material",
+      "material": "material_wood",
       "scale": {
         "x": 1,
         "y": 1,
@@ -40,8 +62,9 @@
     }
   ],
   "frames": [
-    "./configs/3d/frames/wood_fill_carcas.json",
-    "./configs/3d/frames/wall_window_door_left.json"
+    "./configs/3d/frames/right_window_800x1200.json",
+    "./configs/3d/frames/left_wood_door_frame_2200.json",
+    "./configs/3d/frames/left_wood_door_left.json"
   ],
   "sections": [
     {
@@ -59,6 +82,28 @@
         "y": 2200,
         "z": 0
       }
+    }
+  ],
+  "customizations": [
+    {
+      "name": "dark",
+      "object": "wood_wall",
+      "material": "material_wood_black"
+    },
+    {
+      "name": "dark_inner",
+      "object": "wood_wall_inner",
+      "material": "material_wood_black"
+    },
+    {
+      "name": "painted",
+      "object": "wood_wall",
+      "material": "material_wood_painted"
+    },
+    {
+      "name": "painted_inner",
+      "object": "wood_wall_inner",
+      "material": "material_wood_painted"
     }
   ]
 }

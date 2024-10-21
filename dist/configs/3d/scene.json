@@ -1,15 +1,16 @@
 {
+  "hdri": "./assets/environment/cedar_bridge_05k.hdr",
   "background": "#dddddd",
   "camera": {
     "fov": 30,
     "position": {
       "x": 0,
-      "y": 3,
+      "y": 4,
       "z": 18
     },
     "target": {
       "x": 0,
-      "y": 0,
+      "y": 2,
       "z": 0
     }
   },

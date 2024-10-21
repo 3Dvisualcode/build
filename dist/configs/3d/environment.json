@@ -1,57 +1,5 @@
 {
-  "lights": [
-    {
-      "name": "sky",
-      "type": "hemisphere",
-      "color": "0xffffff",
-      "ground": "0xffffff",
-      "intencity": 0.7
-    },
-    {
-      "name": "light_1",
-      "type": "point",
-      "color": "0xFFFFFF",
-      "intencity": 100,
-      "position": {
-        "x": 6.5,
-        "y": 6,
-        "z": 9.5
-      }
-    },
-    {
-      "name": "light_2",
-      "type": "point",
-      "color": "0xFFFFFF",
-      "intencity": 100,
-      "position": {
-        "x": -6.5,
-        "y": 6,
-        "z": 9.5
-      }
-    },
-    {
-      "name": "light_3",
-      "type": "point",
-      "color": "0xFFFFFF",
-      "intencity": 200,
-      "position": {
-        "x": -6.5,
-        "y": 8,
-        "z": -9.5
-      }
-    },
-    {
-      "name": "light_4",
-      "type": "point",
-      "color": "0xFFFFFF",
-      "intencity": 200,
-      "position": {
-        "x": 6.5,
-        "y": 8,
-        "z": -9.5
-      }
-    }
-  ],
+  "lights": [],
   "textures": [
     {
       "name": "tiles",

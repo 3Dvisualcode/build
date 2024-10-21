@@ -6,7 +6,7 @@
     },
     {
       "name": "texture_wood_normal",
-      "url": "./assets/textures/wood/texture_wood_normal.jpg"
+      "url": "./assets/textures/wood/wood_texture_normal.png"
     },
     {
       "name": "texture_wood_black",
@@ -21,35 +21,33 @@
   ],
   "materials": [
     {
-      "name": "material_wood_common",
-      "type": "phong",
-      "color": "#ffffff",
+      "name": "material_wood",
+      "type": "standart",
       "map": "texture_wood",
       "normalMap": "texture_wood_normal",
-      "emissive": "#000000",
-      "roughness": 0.5,
-      "metalness": 0,
-      "transparent": false,
-      "shininess": 50
+      "metalness": 0
     },
     {
-      "name": "material_wood_dark",
-      "type": "phong",
-      "color": "#ffffff",
+      "name": "material_wood_black",
+      "type": "standart",
       "map": "texture_wood_black",
       "normalMap": "texture_wood_normal",
-      "emissive": "#000000",
-      "roughness": 0.5,
+      "metalness": 0
+    },
+    {
+      "name": "material_wood_painted",
+      "type": "standart",
+      "color": "#493c35",
+      "normalMap": "texture_wood_normal",
       "metalness": 0,
-      "transparent": false,
-      "shininess": 50
+      "roughness": 0.3
     }
   ],
   "objects": [
     {
       "name": "column",
       "model": "balk_244mm",
-      "material": "material_wood_common",
+      "material": "material_wood",
       "position": {
         "x": 0.075,
         "y": 0,
@@ -98,6 +96,36 @@
     "./configs/3d/sections/bricks_wood_fill_window2.json",
     "./configs/3d/sections/bricks_wood_fill2_window2.json",
     "./configs/3d/sections/wood_fill_garage_door.json",
-    "./configs/3d/sections/wood_fill2_garage_door.json"
+    "./configs/3d/sections/wood_fill2_garage_door.json",
+    "./configs/3d/sections/bricks_wood_fill_garage_door.json",
+    "./configs/3d/sections/bricks_wood_fill2_garage_door.json",
+    "./configs/3d/sections/blockhut/wall_blockhut.json",
+    "./configs/3d/sections/blockhut/wall_blockhut_door_left.json",
+    "./configs/3d/sections/blockhut/wall_blockhut_door_right.json",
+    "./configs/3d/sections/blockhut/wall_blockhut_double_door.json",
+    "./configs/3d/sections/blockhut/wall_blockhut_garage_door.json",
+    "./configs/3d/sections/blockhut/wall_blockhut_window2_800x1200.json",
+    "./configs/3d/sections/blockhut/wall_blockhut_window_800x1200.json",
+    "./configs/3d/sections/blockhut/wall_blockhut_window_door_left.json",
+    "./configs/3d/sections/blockhut/wall_blockhut_window_door_right.json",
+    "./configs/3d/sections/blockhut2/wall_blockhut2.json",
+    "./configs/3d/sections/blockhut2/wall_blockhut2_door_left.json",
+    "./configs/3d/sections/blockhut2/wall_blockhut2_door_right.json",
+    "./configs/3d/sections/blockhut2/wall_blockhut2_double_door.json",
+    "./configs/3d/sections/blockhut2/wall_blockhut2_garage_door.json",
+    "./configs/3d/sections/blockhut2/wall_blockhut2_window2_800x1200.json",
+    "./configs/3d/sections/blockhut2/wall_blockhut2_window_800x1200.json",
+    "./configs/3d/sections/blockhut2/wall_blockhut2_window_door_left.json",
+    "./configs/3d/sections/blockhut2/wall_blockhut2_window_door_right.json",
+    "./configs/3d/sections/bricks_blockhut/bricks_blockhut.json",
+    "./configs/3d/sections/bricks_blockhut/bricks_blockhut_door_left.json",
+    "./configs/3d/sections/bricks_blockhut/bricks_blockhut_door_right.json",
+    "./configs/3d/sections/bricks_blockhut/bricks_blockhut_double_door.json",
+    "./configs/3d/sections/bricks_blockhut/bricks_blockhut_garage_door.json",
+    "./configs/3d/sections/bricks_blockhut/bricks_blockhut_window2_800x1200.json",
+    "./configs/3d/sections/bricks_blockhut/bricks_blockhut_window_800x1200.json",
+    "./configs/3d/sections/bricks_blockhut/bricks_blockhut_window_door_left.json",
+    "./configs/3d/sections/bricks_blockhut/bricks_blockhut_window_door_right.json",
+    "./configs/3d/sections/wall_potdeksel.json"
   ]
 }

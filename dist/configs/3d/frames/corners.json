@@ -6,7 +6,7 @@
     },
     {
       "name": "texture_wood_normal",
-      "url": "./assets/textures/wood/texture_wood_normal.jpg"
+      "url": "./assets/textures/wood/wood_texture_normal.png"
     },
     {
       "name": "texture_wood_black",
@@ -21,60 +21,38 @@
   ],
   "materials": [
     {
-      "name": "material_wood_common",
-      "type": "phong",
-      "color": "#ffffff",
+      "name": "material_wood",
+      "type": "standart",
       "map": "texture_wood",
       "normalMap": "texture_wood_normal",
-      "emissive": "#000000",
-      "roughness": 0.5,
-      "metalness": 0,
-      "transparent": false,
-      "shininess": 50
+      "metalness": 0
     },
     {
-      "name": "material_wood_dark",
-      "type": "phong",
-      "color": "#ffffff",
+      "name": "material_wood_black",
+      "type": "standart",
       "map": "texture_wood_black",
       "normalMap": "texture_wood_normal",
-      "emissive": "#000000",
-      "roughness": 0.5,
+      "metalness": 0
+    },
+    {
+      "name": "material_wood_painted",
+      "type": "standart",
+      "color": "#493c35",
+      "normalMap": "texture_wood_normal",
       "metalness": 0,
-      "transparent": false,
-      "shininess": 50
+      "roughness": 0.3
     }
   ],
   "objects": [
     {
       "name": "balk_corner_lt",
       "model": "balk_corner",
-      "material": "material_wood_common",
-      "position": {
-        "x": 0,
-        "y": 0,
-        "z": 0.035
-      },
-      "rotation": {
-        "x": 0,
-        "y": 90,
-        "z": 0
-      }
+      "material": "material_wood"
     },
     {
       "name": "balk_corner_rt",
       "model": "balk_corner",
-      "material": "material_wood_common",
-      "position": {
-        "x": 0,
-        "y": 0,
-        "z": 0.035
-      },
-      "rotation": {
-        "x": 0,
-        "y": -90,
-        "z": 0
-      },
+      "material": "material_wood",
       "scale": {
         "x": -1,
         "y": 1,
@@ -111,12 +89,22 @@
     {
       "name": "dark",
       "object": "balk_corner_lt",
-      "material": "material_wood_dark"
+      "material": "material_wood_black"
     },
     {
       "name": "dark",
       "object": "balk_corner_rt",
-      "material": "material_wood_dark"
+      "material": "material_wood_black"
+    },
+    {
+      "name": "painted",
+      "object": "balk_corner_lt",
+      "material": "material_wood_painted"
+    },
+    {
+      "name": "painted",
+      "object": "balk_corner_rt",
+      "material": "material_wood_painted"
     }
   ]
 }

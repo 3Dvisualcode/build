@@ -155,7 +155,7 @@
       <div>
         <label for="wallSelect">Wall ID: </label>
         <select id="wallSelect" name="wallSelect">
-          <option>None</option>
+          <option value="">None</option>
         </select>
       </div>
       <button id="deleteWall" >Delete wall</button>
@@ -250,6 +250,18 @@
           <option value="bricks_wood_fill2_window2">Brick wood (2) with window (2)</option>
           <option value="wood_fill_garage_door">Wood with garage door</option>
           <option value="wood_fill2_garage_door">Wood (2) with garage door</option>
+          <option value="bricks_wood_fill_garage_door">Bricks Wood with garage door</option>
+          <option value="bricks_wood_fill2_garage_door">Bricks Wood (2) with garage door</option>
+          <option value="wall_blockhut">Blockhut</option>
+          <option value="wall_blockhut_door_left">Blockhut door left</option>
+          <option value="wall_blockhut_door_right">Blockhut door right</option>
+          <option value="wall_blockhut_double_door">Blockhut double door</option>
+          <option value="wall_blockhut_garage_door">Blockhut garage door</option>
+          <option value="wall_blockhut_window_800x1200">Blockhut window 800x1200</option>
+          <option value="wall_blockhut_window2_800x1200">Blockhut window (2) 800x1200</option>
+          <option value="wall_blockhut_window_door_left">Blockhut window with door left</option>
+          <option value="wall_blockhut_window_door_right">Blockhut window with door right</option>
+          <option value="wall_potdeksel">Potdeksel</option>
         </select>
       </div>
       <button id="switchWallType" >Switch type</button>
@@ -266,6 +278,63 @@
       </div>
       <button id="addSection">Add section</button>
       <button id="removeSection">Remove first section</button>
+    </div>
+    <div style="display: flex; flex-direction: row; gap: 10px">
+        <div style="display: flex; flex-direction: column; gap: 10px">
+            <div>
+                <input type="checkbox" id="customDark" />
+                <label for="customDark">Dark</label>
+            </div>
+            <div>
+                <input type="checkbox" id="customDarkInner" />
+                <label for="customDarkInner">Dark Inner</label>
+            </div>
+            <div>
+                <input type="checkbox" id="customDarkWindow" />
+                <label for="customDarkWindow">Dark Window</label>
+            </div>
+            <div>
+                <input type="checkbox" id="customDarkDoor" />
+                <label for="customDarkDoor">Dark Door</label>
+            </div>
+        </div>
+        <div style="display: flex; flex-direction: column; gap: 10px">
+            <div>
+                <input type="checkbox" id="customPainted" />
+                <label for="customPainted">Painted</label>
+            </div>
+            <div>
+                <input type="checkbox" id="customPaintedInner" />
+                <label for="customPaintedInner">Painted Inner</label>
+            </div>
+            <div>
+                <input type="checkbox" id="customPaintedWindow" />
+                <label for="customPaintedWindow">Painted Window</label>
+            </div>
+            <div>
+                <input type="checkbox" id="customPaintedDoor" />
+                <label for="customPaintedDoor">Painted Door</label>
+            </div>
+        </div>
+        <div style="display: flex; flex-direction: column; gap: 10px">
+            <div>
+                <input type="checkbox" id="customWhite" />
+                <label for="customWhite">White</label>
+            </div>
+            <div>
+                <input type="checkbox" id="customWhiteInner" />
+                <label for="customWhiteInner">White Inner</label>
+            </div>
+            <div>
+                <input type="checkbox" id="customWhiteWindow" />
+                <label for="customWhiteWindow">White Window</label>
+            </div>
+            <div>
+                <input type="checkbox" id="customWhiteDoor" />
+                <label for="customWhiteDoor">White Door</label>
+            </div>
+        </div>
+        <button id="customSetButton" >Set</button>
     </div>
   </body>
 </html>

@@ -1,0 +1,99 @@
+{
+  "type": "wall_blockhut_door_right",
+  "textures": [
+    {
+      "name": "texture_wood",
+      "url": "./assets/textures/wood/texture_wood.jpg"
+    },
+    {
+      "name": "texture_wood_normal",
+      "url": "./assets/textures/wood/wood_texture_normal.png"
+    },
+    {
+      "name": "texture_wood_black",
+      "url": "./assets/textures/wood/texture_wood_black.jpg"
+    }
+  ],
+  "models": [
+    {
+      "name": "wall_blockhut_2200x1000",
+      "url": "./assets/models/wall/wall_blockhut_2200x1000.obj"
+    }
+  ],
+  "materials": [
+    {
+      "name": "material_wood",
+      "type": "standart",
+      "map": "texture_wood",
+      "normalMap": "texture_wood_normal",
+      "metalness": 0
+    },
+    {
+      "name": "material_wood_black",
+      "type": "standart",
+      "map": "texture_wood_black",
+      "normalMap": "texture_wood_normal",
+      "metalness": 0
+    },
+    {
+      "name": "material_wood_painted",
+      "type": "standart",
+      "color": "#493c35",
+      "normalMap": "texture_wood_normal",
+      "metalness": 0,
+      "roughness": 0.3
+    },
+    {
+      "name": "material_white",
+      "type": "standart",
+      "color": "#cdcdcd",
+      "metalness": 0,
+      "roughness": 0.25
+    }
+  ],
+  "objects": [
+    {
+      "name": "wall_blockhut",
+      "model": "wall_blockhut_2200x1000",
+      "material": "material_wood"
+    }
+  ],
+  "frames": [
+    "./configs/3d/frames/wood_door_frame_2200.json",
+    "./configs/3d/frames/wood_door_right.json"
+  ],
+  "sections": [
+    {
+      "object": "wall_blockhut",
+      "initial": {
+        "x": 1000,
+        "y": 2200,
+        "z": 0
+      },
+      "relative": {
+        "z": {
+          "a": 0.5,
+          "b": -25
+        }
+      },
+      "materialScaling": true
+    }
+  ],
+  "customizations": [
+    {
+      "name": "dark",
+      "object": "wall_blockhut",
+      "material": "material_wood_black"
+    },
+    {
+      "name": "painted",
+      "object": "wall_blockhut",
+      "material": "material_wood_painted"
+    },
+    {
+      "name": "white",
+      "object": "wall_blockhut",
+      "material": "material_white"
+    }
+  ]
+}
