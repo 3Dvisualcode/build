@@ -1,0 +1,79 @@
+{
+  "type": "beam",
+  "textures": [
+    {
+      "name": "texture_wood",
+      "url": "./assets/textures/wood/texture_wood.jpg"
+    },
+    {
+      "name": "texture_wood_normal",
+      "url": "./assets/textures/wood/texture_wood_normal.jpg"
+    },
+    {
+      "name": "texture_wood_black",
+      "url": "./assets/textures/wood/texture_wood_black.jpg"
+    }
+  ],
+  "models": [
+    {
+      "name": "balk_244mm",
+      "url": "./assets/models/common/balk_244mm.obj"
+    }
+  ],
+  "materials": [
+    {
+      "name": "material_wood_common",
+      "type": "phong",
+      "color": "#ffffff",
+      "map": "texture_wood",
+      "normalMap": "texture_wood_normal",
+      "emissive": "#000000",
+      "roughness": 0.5,
+      "metalness": 0,
+      "transparent": false,
+      "shininess": 50
+    },
+    {
+      "name": "material_wood_dark",
+      "type": "phong",
+      "color": "#ffffff",
+      "map": "texture_wood_black",
+      "normalMap": "texture_wood_normal",
+      "emissive": "#000000",
+      "roughness": 0.5,
+      "metalness": 0,
+      "transparent": false,
+      "shininess": 50
+    }
+  ],
+  "objects": [
+    {
+      "name": "beam",
+      "model": "balk_244mm",
+      "material": "material_wood_common",
+      "position": {
+        "x": 0.075,
+        "y": 0,
+        "z": 0
+      }
+    }
+  ],
+  "frames": [],
+  "sections": [
+    {
+      "object": "beam",
+      "initial": {
+        "x": 150,
+        "y": 2200,
+        "z": 0
+      }
+    }
+  ],
+  "customizations": [
+    {
+      "name": "dark",
+      "object": "beam",
+      "material": "material_wood_dark"
+    }
+  ]
+}

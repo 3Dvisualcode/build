@@ -1,0 +1,118 @@
+{
+  "textures": [
+    {
+      "name": "texture_wood",
+      "url": "./assets/textures/wood/texture_wood.jpg"
+    },
+    {
+      "name": "texture_wood_normal",
+      "url": "./assets/textures/wood/texture_wood_normal.jpg"
+    }
+  ],
+  "models": [
+    {
+      "name": "wall_window",
+      "url": "./assets/models/wall_window/window.obj"
+    }
+  ],
+  "materials": [
+    {
+      "name": "material_wood",
+      "type": "standart",
+      "color": "#ffffff",
+      "map": "texture_wood",
+      "emissive": "#333333",
+      "roughness": 1,
+      "metalness": 0,
+      "opacity": 0,
+      "transparent": false
+    },
+    {
+      "name": "glass_window_glass",
+      "type": "standart",
+      "color": "#ffffff",
+      "metalness": 0.1,
+      "roughness": 0.1,
+      "opacity": 0.2,
+      "transparent": true
+    }
+  ],
+  "meshes": [
+    {
+      "name": "window_box",
+      "type": "box",
+      "material": "glass_window_glass",
+      "size": {
+        "x": 0.8,
+        "y": 1,
+        "z": 1
+      }
+    },
+    {
+      "name": "wall_window_glass",
+      "type": "box",
+      "material": "glass_window_glass",
+      "size": {
+        "x": 0.8,
+        "y": 1,
+        "z": 0.01
+      }
+    }
+  ],
+  "objects": [
+    {
+      "name": "wall_window_frame",
+      "model": "wall_window",
+      "material": "material_wood",
+      "position": {
+        "x": 0,
+        "y": -0.5,
+        "z": 0.035
+      }
+    }
+  ],
+  "type": "window_right",
+  "parts": [
+    {
+      "object": "wall_window_frame",
+      "relative": {
+        "x": {
+          "a": 0.66666,
+          "b": 133
+        },
+        "y": {
+          "a": 0,
+          "b": 1500
+        }
+      }
+    },
+    {
+      "object": "wall_window_glass",
+      "relative": {
+        "x": {
+          "a": 0.66666,
+          "b": 133
+        },
+        "y": {
+          "a": 0,
+          "b": 1500
+        }
+      }
+    }
+  ],
+  "cuts": [
+    {
+      "object": "window_box",
+      "relative": {
+        "x": {
+          "a": 0.66666,
+          "b": 133
+        },
+        "y": {
+          "a": 0,
+          "b": 1500
+        }
+      }
+    }
+  ]
+}

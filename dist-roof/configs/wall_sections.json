@@ -1,0 +1,960 @@
+[
+  {
+    "type": "empty",
+    "group": "",
+    "name": "Empty",
+    "size": {
+      "min": 0,
+      "max": 999999999
+    },
+    "frame": [
+      {
+        "type": "corners",
+        "size": {
+          "min": 1000,
+          "max": 999999999
+        }
+      }
+    ],
+    "customization": [
+      "dark"
+    ]
+  },
+  {
+    "type": "wood_fill",
+    "group": "",
+    "name": "Wood",
+    "size": {
+      "min": 0,
+      "max": 999999999
+    },
+    "frame": [
+      {
+        "type": "wood_fill_carcas",
+        "name": "Wall carcas",
+        "size": {
+          "min": 2000,
+          "max": 999999999
+        }
+      }
+    ],
+    "customization": [
+      "dark"
+    ]
+  },
+  {
+    "type": "wood_fill2",
+    "group": "",
+    "name": "Wood double side",
+    "size": {
+      "min": 0,
+      "max": 999999999
+    },
+    "frame": [
+      {
+        "type": "wood_fill_carcas",
+        "name": "Wall carcas",
+        "size": {
+          "min": 2000,
+          "max": 999999999
+        }
+      }
+    ],
+    "customization": [
+      "dark",
+      "dark_inner"
+    ]
+  },
+  {
+    "type": "beam",
+    "group": "",
+    "name": "Beam",
+    "size": {
+      "min": 150,
+      "max": 150
+    },
+    "frame": [],
+    "customization": [
+      "dark"
+    ]
+  },
+  {
+    "type": "zhaluzi",
+    "name": "Zhaluzi",
+    "group": "zhaluzi",
+    "size": {
+      "min": 1000,
+      "max": 1000
+    },
+    "frame": [],
+    "customization": []
+  },
+  {
+    "type": "glass_1m",
+    "name": "Glass 1m",
+    "group": "glass",
+    "size": {
+      "min": 1000,
+      "max": 1000
+    },
+    "frame": [
+      {
+        "type": "glass_1m_frame",
+        "name": "Glass 1m frame",
+        "size": {
+          "min": 0,
+          "max": 999999999
+        }
+      },
+      {
+        "type": "glass_1m_glass",
+        "name": "Glass 1m glass",
+        "size": {
+          "min": 0,
+          "max": 999999999
+        }
+      }
+    ],
+    "customization": []
+  },
+  {
+    "type": "glass_2m",
+    "name": "Glass 2m",
+    "group": "glass",
+    "size": {
+      "min": 2000,
+      "max": 2000
+    },
+    "frame": [
+      {
+        "type": "glass_2m_frame",
+        "name": "Glass 2m frame",
+        "size": {
+          "min": 0,
+          "max": 999999999
+        }
+      },
+      {
+        "type": "glass_2m_glass",
+        "name": "Glass 2m glass",
+        "size": {
+          "min": 0,
+          "max": 999999999
+        }
+      }
+    ],
+    "customization": []
+  },
+  {
+    "type": "glass_door_2m",
+    "name": "Glass panel 2 sections",
+    "group": "glass_doors",
+    "size": {
+      "min": 1500,
+      "max": 2000
+    },
+    "frame": [
+      {
+        "type": "glass_door_2m_frame",
+        "name": "Glass door 2m frame",
+        "size": {
+          "min": 0,
+          "max": 999999999
+        }
+      },
+      {
+        "type": "glass_door_2m_glass",
+        "name": "Glass door 2m glass",
+        "size": {
+          "min": 0,
+          "max": 999999999
+        }
+      }
+    ],
+    "customization": []
+  },
+  {
+    "type": "glass_door_3m",
+    "name": "Glass panel 3 sections",
+    "group": "glass_doors",
+    "size": {
+      "min": 2500,
+      "max": 3000
+    },
+    "frame": [
+      {
+        "type": "glass_door_3m_frame",
+        "name": "Glass door 3m frame",
+        "size": {
+          "min": 0,
+          "max": 999999999
+        }
+      },
+      {
+        "type": "glass_door_3m_glass",
+        "name": "Glass door 3m glass",
+        "size": {
+          "min": 0,
+          "max": 999999999
+        }
+      }
+    ],
+    "customization": []
+  },
+  {
+    "type": "glass_door_4m",
+    "name": "Glass panel 4 sections",
+    "group": "glass_doors",
+    "size": {
+      "min": 3500,
+      "max": 4000
+    },
+    "frame": [
+      {
+        "type": "glass_door_4m_frame",
+        "name": "Glass door 4m frame",
+        "size": {
+          "min": 0,
+          "max": 999999999
+        }
+      },
+      {
+        "type": "glass_door_4m_glass",
+        "name": "Glass door 4m glass",
+        "size": {
+          "min": 0,
+          "max": 999999999
+        }
+      }
+    ],
+    "customization": []
+  },
+  {
+    "type": "wood_fill_window",
+    "name": "Wood fill with window",
+    "group": "",
+    "size": {
+      "min": 1500,
+      "max": 999999999
+    },
+    "frame": [
+      {
+        "type": "window_800x1200",
+        "size": {
+          "min": 0,
+          "max": 999999999
+        }
+      },
+      {
+        "type": "wood_fill_carcas",
+        "name": "Wall carcas",
+        "size": {
+          "min": 999999999,
+          "max": 999999999
+        }
+      }
+    ],
+    "customization": [
+      "dark",
+      "dark_window"
+    ]
+  },
+  {
+    "type": "wood_fill2_window",
+    "name": "Wood fill double side with window",
+    "group": "",
+    "size": {
+      "min": 1500,
+      "max": 999999999
+    },
+    "frame": [
+      {
+        "type": "window_800x1200",
+        "size": {
+          "min": 0,
+          "max": 999999999
+        }
+      },
+      {
+        "type": "wood_fill_carcas",
+        "name": "Wall carcas",
+        "size": {
+          "min": 999999999,
+          "max": 999999999
+        }
+      }
+    ],
+    "customization": [
+      "dark",
+      "dark_inner",
+      "dark_window"
+    ]
+  },
+  {
+    "type": "wood_fill_door_left",
+    "name": "Wood fill double side with door left",
+    "group": "",
+    "size": {
+      "min": 1500,
+      "max": 999999999
+    },
+    "frame": [
+      {
+        "type": "wood_door_frame_2200",
+        "size": {
+          "min": 0,
+          "max": 999999999
+        }
+      },
+      {
+        "type": "wood_door_left",
+        "size": {
+          "min": 0,
+          "max": 999999999
+        }
+      }
+    ],
+    "customization": [
+      "dark",
+      "dark_door"
+    ]
+  },
+  {
+    "type": "wood_fill2_door_left",
+    "name": "Wood fill double side with door left",
+    "group": "",
+    "size": {
+      "min": 1500,
+      "max": 999999999
+    },
+    "frame": [
+      {
+        "type": "wood_door_frame_2200",
+        "size": {
+          "min": 0,
+          "max": 999999999
+        }
+      },
+      {
+        "type": "wood_door_left",
+        "size": {
+          "min": 0,
+          "max": 999999999
+        }
+      }
+    ],
+    "customization": [
+      "dark",
+      "dark_inner",
+      "dark_door"
+    ]
+  },
+  {
+    "type": "wood_fill_door_right",
+    "name": "Wood fill with door right",
+    "group": "",
+    "size": {
+      "min": 1500,
+      "max": 999999999
+    },
+    "frame": [
+      {
+        "type": "wood_door_frame_2200",
+        "size": {
+          "min": 0,
+          "max": 999999999
+        }
+      },
+      {
+        "type": "wood_door_right",
+        "size": {
+          "min": 0,
+          "max": 999999999
+        }
+      }
+    ],
+    "customization": [
+      "dark",
+      "dark_door"
+    ]
+  },
+  {
+    "type": "wood_fill2_door_right",
+    "name": "Wood fill double side with door right",
+    "group": "",
+    "size": {
+      "min": 1500,
+      "max": 999999999
+    },
+    "frame": [
+      {
+        "type": "wood_door_frame_2200",
+        "size": {
+          "min": 0,
+          "max": 999999999
+        }
+      },
+      {
+        "type": "wood_door_right",
+        "size": {
+          "min": 0,
+          "max": 999999999
+        }
+      }
+    ],
+    "customization": [
+      "dark",
+      "dark_inner",
+      "dark_door"
+    ]
+  },
+  {
+    "type": "wood_fill_window_door_left",
+    "name": "Wood fill with window and door left",
+    "group": "",
+    "size": {
+      "min": 3000,
+      "max": 999999999
+    },
+    "frame": [
+      {
+        "type": "right_window_800x1200",
+        "size": {
+          "min": 0,
+          "max": 999999999
+        }
+      },
+      {
+        "type": "left_wood_door_frame_2200",
+        "size": {
+          "min": 0,
+          "max": 999999999
+        }
+      },
+      {
+        "type": "left_wood_door_left",
+        "size": {
+          "min": 0,
+          "max": 999999999
+        }
+      }
+    ],
+    "customization": [
+      "dark",
+      "dark_window",
+      "dark_door"
+    ]
+  },
+  {
+    "type": "wood_fill2_window_door_left",
+    "name": "Wood fill double side with window and door left",
+    "group": "",
+    "size": {
+      "min": 3000,
+      "max": 999999999
+    },
+    "frame": [
+      {
+        "type": "right_window_800x1200",
+        "size": {
+          "min": 0,
+          "max": 999999999
+        }
+      },
+      {
+        "type": "left_wood_door_frame_2200",
+        "size": {
+          "min": 0,
+          "max": 999999999
+        }
+      },
+      {
+        "type": "left_wood_door_left",
+        "size": {
+          "min": 0,
+          "max": 999999999
+        }
+      }
+    ],
+    "customization": [
+      "dark",
+      "dark_inner",
+      "dark_window",
+      "dark_door"
+    ]
+  },
+  {
+    "type": "wood_fill_window_door_right",
+    "name": "Wood fill with window and door right",
+    "group": "",
+    "size": {
+      "min": 3000,
+      "max": 999999999
+    },
+    "frame": [
+      {
+        "type": "left_window_800x1200",
+        "size": {
+          "min": 0,
+          "max": 999999999
+        }
+      },
+      {
+        "type": "right_wood_door_frame_2200",
+        "size": {
+          "min": 0,
+          "max": 999999999
+        }
+      },
+      {
+        "type": "right_wood_door_right",
+        "size": {
+          "min": 0,
+          "max": 999999999
+        }
+      }
+    ],
+    "customization": [
+      "dark",
+      "dark_window",
+      "dark_door"
+    ]
+  },
+  {
+    "type": "wood_fill2_window_door_right",
+    "name": "Wood fill double side with window and door right",
+    "group": "",
+    "size": {
+      "min": 3000,
+      "max": 999999999
+    },
+    "frame": [
+      {
+        "type": "left_window_800x1200",
+        "size": {
+          "min": 0,
+          "max": 999999999
+        }
+      },
+      {
+        "type": "right_wood_door_frame_2200",
+        "size": {
+          "min": 0,
+          "max": 999999999
+        }
+      },
+      {
+        "type": "right_wood_door_right",
+        "size": {
+          "min": 0,
+          "max": 999999999
+        }
+      }
+    ],
+    "customization": [
+      "dark",
+      "dark_inner",
+      "dark_window",
+      "dark_door"
+    ]
+  },
+  {
+    "type": "wood_fill_double_doors",
+    "name": "Wood fill with double doors",
+    "group": "",
+    "size": {
+      "min": 3000,
+      "max": 999999999
+    },
+    "frame": [
+      {
+        "type": "double_doors",
+        "size": {
+          "min": 0,
+          "max": 999999999
+        }
+      },
+      {
+        "type": "wood_fill_carcas",
+        "name": "Wall carcas",
+        "size": {
+          "min": 999999999,
+          "max": 999999999
+        }
+      }
+    ],
+    "customization": [
+      "dark",
+      "dark_door"
+    ]
+  },
+  {
+    "type": "wood_fill2_double_doors",
+    "name": "Wood fill double side with double doors",
+    "group": "",
+    "size": {
+      "min": 3000,
+      "max": 999999999
+    },
+    "frame": [
+      {
+        "type": "double_doors",
+        "size": {
+          "min": 0,
+          "max": 999999999
+        }
+      },
+      {
+        "type": "wood_fill_carcas",
+        "name": "Wall carcas",
+        "size": {
+          "min": 999999999,
+          "max": 999999999
+        }
+      }
+    ],
+    "customization": [
+      "dark",
+      "dark_inner",
+      "dark_door"
+    ]
+  },
+  {
+    "type": "bricks_wood_fill",
+    "name": "Bricks with wood fill wall",
+    "size": {
+      "min": 0,
+      "max": 999999999
+    },
+    "frame": [
+      {
+        "type": "bricks",
+        "size": {
+          "min": 0,
+          "max": 999999999
+        }
+      }
+    ],
+    "customization": [
+      "dark"
+    ]
+  },
+  {
+    "type": "bricks_wood_fill2",
+    "name": "Bricks with double wood fill wall",
+    "size": {
+      "min": 0,
+      "max": 999999999
+    },
+    "frame": [
+      {
+        "type": "bricks",
+        "size": {
+          "min": 0,
+          "max": 999999999
+        }
+      }
+    ],
+    "customization": [
+      "dark",
+      "dark_inner"
+    ]
+  },
+  {
+    "type": "bricks_wood_fill_window",
+    "name": "Bricks with wood fill wall with window",
+    "size": {
+      "min": 0,
+      "max": 999999999
+    },
+    "frame": [
+      {
+        "type": "window",
+        "size": {
+          "min": 0,
+          "max": 999999999
+        }
+      },
+      {
+        "type": "bricks",
+        "size": {
+          "min": 0,
+          "max": 999999999
+        }
+      }
+    ],
+    "customization": [
+      "dark"
+    ]
+  },
+  {
+    "type": "bricks_wood_fill2_window",
+    "name": "Bricks with double wood fill wall with window",
+    "size": {
+      "min": 0,
+      "max": 999999999
+    },
+    "frame": [
+      {
+        "type": "window",
+        "size": {
+          "min": 0,
+          "max": 999999999
+        }
+      },
+      {
+        "type": "bricks",
+        "size": {
+          "min": 0,
+          "max": 999999999
+        }
+      }
+    ],
+    "customization": [
+      "dark",
+      "dark_inner"
+    ]
+  },
+  {
+    "type": "wood_fill_window2",
+    "name": "",
+    "size": {
+      "min": 0,
+      "max": 999999999
+    },
+    "frame": [
+      {
+        "type": "window_left",
+        "size": {
+          "min": 0,
+          "max": 999999999
+        }
+      },
+      {
+        "type": "window_right",
+        "size": {
+          "min": 0,
+          "max": 999999999
+        }
+      }
+    ],
+    "customization": [
+      "dark",
+      "dark_window"
+    ]
+  },
+  {
+    "type": "wood_fill2_window2",
+    "name": "",
+    "size": {
+      "min": 0,
+      "max": 999999999
+    },
+    "frame": [
+      {
+        "type": "window_left",
+        "size": {
+          "min": 0,
+          "max": 999999999
+        }
+      },
+      {
+        "type": "window_right",
+        "size": {
+          "min": 0,
+          "max": 999999999
+        }
+      }
+    ],
+    "customization": [
+      "dark",
+      "dark_inner",
+      "dark_window"
+    ]
+  },
+  {
+    "type": "bricks_wood_fill_window2",
+    "name": "",
+    "size": {
+      "min": 0,
+      "max": 999999999
+    },
+    "frame": [
+      {
+        "type": "bricks",
+        "size": {
+          "min": 0,
+          "max": 999999999
+        }
+      },
+      {
+        "type": "window_left",
+        "size": {
+          "min": 0,
+          "max": 999999999
+        }
+      },
+      {
+        "type": "window_right",
+        "size": {
+          "min": 0,
+          "max": 999999999
+        }
+      }
+    ],
+    "customization": [
+      "dark",
+      "dark_window"
+    ]
+  },
+  {
+    "type": "bricks_wood_fill2_window2",
+    "name": "",
+    "size": {
+      "min": 0,
+      "max": 999999999
+    },
+    "frame": [
+      {
+        "type": "bricks",
+        "size": {
+          "min": 0,
+          "max": 999999999
+        }
+      },
+      {
+        "type": "window_left",
+        "size": {
+          "min": 0,
+          "max": 999999999
+        }
+      },
+      {
+        "type": "window_right",
+        "size": {
+          "min": 0,
+          "max": 999999999
+        }
+      }
+    ],
+    "customization": [
+      "dark",
+      "dark_inner",
+      "dark_window"
+    ]
+  },
+  {
+    "type": "wood_fill_garage_door",
+    "name": "",
+    "size": {
+      "min": 0,
+      "max": 999999999
+    },
+    "frame": [
+      {
+        "type": "garage_door_frame_2200",
+        "size": {
+          "min": 0,
+          "max": 999999999
+        }
+      },
+      {
+        "type": "garage_door",
+        "size": {
+          "min": 0,
+          "max": 999999999
+        }
+      }
+    ],
+    "customization": [
+      "dark",
+      "dark_door"
+    ]
+  },
+  {
+    "type": "wood_fill2_garage_door",
+    "name": "",
+    "size": {
+      "min": 0,
+      "max": 999999999
+    },
+    "frame": [
+      {
+        "type": "garage_door_frame_2200",
+        "size": {
+          "min": 0,
+          "max": 999999999
+        }
+      },
+      {
+        "type": "garage_door",
+        "size": {
+          "min": 0,
+          "max": 999999999
+        }
+      }
+    ],
+    "customization": [
+      "dark",
+      "dark_inner",
+      "dark_door"
+    ]
+  },
+  {
+    "type": "bricks_wood_fill_garage_door",
+    "name": "",
+    "size": {
+      "min": 0,
+      "max": 999999999
+    },
+    "frame": [
+      {
+        "type": "garage_door_frame",
+        "size": {
+          "min": 0,
+          "max": 999999999
+        }
+      },
+      {
+        "type": "garage_door",
+        "size": {
+          "min": 0,
+          "max": 999999999
+        }
+      }
+    ],
+    "customization": [
+      "dark",
+      "dark_door"
+    ]
+  },
+  {
+    "type": "bricks_wood_fill2_garage_door",
+    "name": "",
+    "size": {
+      "min": 0,
+      "max": 999999999
+    },
+    "frame": [
+      {
+        "type": "garage_door_frame",
+        "size": {
+          "min": 0,
+          "max": 999999999
+        }
+      },
+      {
+        "type": "garage_door",
+        "size": {
+          "min": 0,
+          "max": 999999999
+        }
+      }
+    ],
+    "customization": [
+      "dark",
+      "dark_inner",
+      "dark_door"
+    ]
+  }
+]
