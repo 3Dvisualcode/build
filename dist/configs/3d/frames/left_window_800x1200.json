@@ -61,7 +61,7 @@
     {
       "name": "material_glass",
       "type": "standart",
-      "color": "#5873cd",
+      "color": "#8fa2a6",
       "metalness": 1,
       "roughness": 0.04545454680919647,
       "opacity": 0.275,
