@@ -20,8 +20,8 @@
   ],
   "models": [
     {
-      "name": "kosour",
-      "url": "./assets/models/kosour.obj"
+      "name": "balk_corner_blockhut",
+      "url": "./assets/models/wall/balk_corner_blockhut.obj"
     },
     {
       "name": "log_50x50",
@@ -68,28 +68,18 @@
       "material": "material_wood_light"
     },
     {
-      "name": "kosour_l",
-      "model": "kosour",
-      "material": "material_wood",
-      "rotation": {
-        "x": 0,
-        "y": 90,
-        "z": 0
-      }
+      "name": "corner_l",
+      "model": "balk_corner_blockhut",
+      "material": "material_wood"
     },
     {
-      "name": "kosour_r",
-      "model": "kosour",
+      "name": "corner_r",
+      "model": "balk_corner_blockhut",
       "material": "material_wood",
-      "rotation": {
-        "x": 0,
-        "y": 90,
-        "z": 0
-      },
       "scale": {
-        "x": 1,
+        "x": -1,
         "y": 1,
-        "z": -1
+        "z": 1
       }
     }
   ],
@@ -171,7 +161,7 @@
       }
     },
     {
-      "object": "kosour_l",
+      "object": "corner_l",
       "relative": {
         "x": {
           "a": 0,
@@ -183,12 +173,12 @@
         },
         "z": {
           "a": 0.5,
-          "b": 0
+          "b": -25
         }
       }
     },
     {
-      "object": "kosour_r",
+      "object": "corner_r",
       "relative": {
         "x": {
           "a": 1,
@@ -200,7 +190,7 @@
         },
         "z": {
           "a": 0.5,
-          "b": 0
+          "b": -25
         }
       }
     }

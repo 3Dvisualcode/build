@@ -1,0 +1,10 @@
+[
+  {
+    "type": "wood",
+    "name": "Wood column"
+  },
+  {
+    "type": "concrete_wood",
+    "name": "Wood column with concrete"
+  }
+]
